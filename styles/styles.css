@@ -11,7 +11,7 @@ body {
 }
 
 footer {
-  background-color: blue;
+  background-color: rgb(25, 120, 198);
   border-radius: 10px;
   color: white;
   padding: 1em;
@@ -23,7 +23,7 @@ header {
   grid-template-rows: 5em;
   padding: 1em;
   align-self: center;
-  background-color: blue;
+  background-color: rgb(25, 120, 198);
   border-radius: 10px;
   color: white;
 }
@@ -32,7 +32,7 @@ header img {
   grid-column: 2/3;
   height: 100%;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px 2px grey;
+  box-shadow: 5px 5px 10px 2px black;
 }
 
 header h1 {
@@ -45,4 +45,9 @@ header h1 {
 
 .text-shadow {
   text-shadow: 2px 2px 5px grey;
+}
+
+li {
+  padding: 5px;
+  width: 8em;
 }
