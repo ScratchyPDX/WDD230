@@ -1,0 +1,53 @@
+@media(min-width: 32.5em) {
+
+  body {
+    background-color: white;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 2em;
+    padding: 0;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  footer {
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 10% 20% 60% 10%;
+    grid-template-rows: 7em;
+    padding: 1em;
+    align-self: center;
+    border-radius: 10px;
+    color: white;
+  }
+
+  header img {
+    grid-column: 2/3;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 2px black;
+  }
+
+  header h1 {
+    grid-column: 3/4;
+    align-self: center;
+  }
+
+  .box-shadow {
+    box-shadow: 10px 10px 10px 2px grey;
+  }
+
+  .text-shadow {
+    text-shadow: 5px 5px 10px black;
+  }
+
+  li {
+    padding: 5px;
+    width: 8em;
+  }
+}
