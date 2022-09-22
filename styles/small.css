@@ -52,4 +52,10 @@
   li {
     padding: 5px;
     width: 8em;
+    display: flex;
+    width: auto;
+  }
+
+  li a {
+    padding-left: 1em;
   }
