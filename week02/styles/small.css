@@ -1,0 +1,59 @@
+body {
+	font-size: 16px;
+	font-family: Raleway, Helvetica, sans-serif;
+}
+
+footer {
+	border-radius: 10px;
+	color: white;
+	padding: 1em;
+	text-align: center;
+}
+
+header {
+	font-size: 2rem;
+	padding: 0.5em;
+	color: white;
+}
+
+header, footer {
+	background-color: rgb(25, 120, 198);
+	border-radius: 10px;
+	text-shadow: 5px 5px 10px black;
+}
+
+main {
+	max-width: 767px;
+	margin: 10px;
+	display: block;
+	font-size: 1rem;
+}
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+
+main section h2 {
+	color: black;
+}
+
+main section img {
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+}
+
+.page-title {
+	text-align: center;
+	font-size: 2em;
+}
+
+section {
+    border-color: rgb(67, 73, 76);
+    background-color: rgb(34, 36, 38);
+		border-radius: 15px 15px 0 0;
+}
+
