@@ -11,9 +11,10 @@ footer {
 }
 
 header {
-	font-size: 2rem;
+	font-size: 1rem;
 	padding: 0.5em;
 	color: white;
+	text-align: center;
 }
 
 header, footer {
@@ -44,11 +45,6 @@ main section img {
 	width: 100%;
 	height: auto;
 	padding-top: 10px;
-}
-
-.page-title {
-	text-align: center;
-	font-size: 2em;
 }
 
 section {
