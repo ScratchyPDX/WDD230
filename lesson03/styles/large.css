@@ -1,12 +1,16 @@
-/* @media (min-width: 64em) {
-  body,
-  header,
-  main,
-  footer {
-    width: 730px;
-  }
 
-  header {
-    grid-template-rows: repeat(2, 90px);
-  }
-} */
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+}
