@@ -24,8 +24,8 @@
 	}
 
 	main article img {
-		width: 100%;
+		width: auto;
 		height: auto;
-		margin: auto;
+		margin: 1.2rem;
 	}
 }

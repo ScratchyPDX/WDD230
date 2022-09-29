@@ -65,8 +65,10 @@ nav a:hover {
 	background-color: darkgray;
 }
 
-main {
+.grid-display {
 	display: grid;
+}
+main {
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
