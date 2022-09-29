@@ -62,8 +62,9 @@ nav a:hover {
 }
 
 .active {
-	color: yellow;
+	background-color: darkgray;
 }
+
 main {
 	display: grid;
 	grid-template-columns: 1fr;
