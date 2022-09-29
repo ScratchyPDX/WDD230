@@ -33,6 +33,7 @@ h1 {
 }
 h2 {
 	color: #536878;
+	margin-bottom: 0.5em;
 }
 
 nav {
@@ -76,12 +77,15 @@ main article {
 	background-color: #eee;
 }
 
-main article ul {
+main ul {
 	margin: 1rem 0 0 1rem;
 }
-main picture {
-	display: none;
-	margin: 1rem;
+
+main li {
+	margin: 0.5rem;
+}
+
+main p {
 }
 
 footer p {
