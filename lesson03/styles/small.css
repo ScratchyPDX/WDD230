@@ -4,6 +4,27 @@
 	box-sizing: border-box;
 }
 
+
+:root {
+	--primary-color: #0077B6   ;
+	--secondary-color: #00B4D8 ;
+	--accent1-color: #CAF0F8;
+	--accent2-color: #90E0EF;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+
 body {
 	font-size: 16px;
 	font-family: Roboto, Helvetica, sans-serif;
@@ -12,7 +33,7 @@ body {
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #aaa;
+	background-color: var(--primary-color);
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -36,7 +57,7 @@ h2 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: var(--secondary-color);
 	margin: 0 auto;
 	max-width: 780px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
@@ -57,12 +78,12 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #bbb;
+	background-color: var(--accent1-color);
 	color: #36454f;
 }
 
 .active {
-	background-color: darkgray;
+	background-color: var(--accent2-color);
 }
 
 .grid-display {
@@ -97,4 +118,21 @@ footer p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td{
+  width: 25%;
+
+  height: 3em;
 }
