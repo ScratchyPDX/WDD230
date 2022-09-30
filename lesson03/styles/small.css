@@ -85,9 +85,11 @@ main ul {
 
 main li {
 	margin: 0.5rem;
+	font-size: 0.9rem;
 }
 
 main p {
+	font-size: 0.9rem;
 }
 
 footer p {
