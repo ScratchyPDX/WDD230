@@ -16,4 +16,8 @@
 	nav a {
 		font-size: 1.1rem;
 	}
+
+	nav ul li a {
+    padding: 0.5rem 1rem;
+  }
 }

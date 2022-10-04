@@ -28,9 +28,9 @@ document.getElementById("year").innerHTML = date.getFullYear();
 document.getElementById("last_modified").innerHTML = document.lastModified;
 
 function toggleMenu() {
-  document.getElementById("primary-nav").classList.toggle("open");
-  document.getElementById("hamburger-menu").classList.toggle("open");
+  document.getElementById("primaryNav").classList.toggle("open");
+  document.getElementById("hamburgerBtn").classList.toggle("open");
 }
 
-const x = document.getElementById("hamburger-menu");
+const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;

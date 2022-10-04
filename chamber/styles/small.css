@@ -97,10 +97,25 @@ nav {
 	margin: 0 auto;
 	max-width: 780px;
 }
+
+nav button {
+  margin: .2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
+	display: none;
 }
+
+nav ul.open {
+  display: block;
+}
+
 nav a {
 	display: block;
 	color: #fff;
@@ -148,4 +163,20 @@ main p {
 
 th {
 	font-size: 1rem;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display:block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display:none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display:none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display:block;
 }
