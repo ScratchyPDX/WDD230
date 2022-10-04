@@ -1,0 +1,32 @@
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+
+  article:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+  main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main article img {
+		width: auto;
+		height: auto;
+		margin: 1.2rem;
+	}
+
+	nav ul {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		/* grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); */
+	}
+
+	nav a {
+		font-size: 1rem;
+	}
+}
