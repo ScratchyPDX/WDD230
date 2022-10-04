@@ -84,12 +84,47 @@ footer {
 	max-width: 900px;
 	margin: 0 auto;
 }
+
+
+header {
+	display: grid;
+	grid-template-columns: 100px 1fr 25px 25px;
+	grid-template-rows: 1fr 0.3fr;
+}
+
+header .logo {
+	width: 100px;
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+header .title {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	padding: 2rem;
+}
+
+header #today-date {
+	grid-column: 1/6;
+	grid-row: 2/3;
+	text-align: center;
+	background-color:  var(--accent2-color);
+	padding: 5px;
+}
+
 h1 {
 	font-size: 1.1rem;
 }
+
 h2 {
-	color: #536878;
 	margin-bottom: 0.5em;
+}
+
+.location {
+	width: 100%;
+	border-bottom: 1px solid black;
+	text-align: center; 
+	padding: 10px;
 }
 
 nav {
