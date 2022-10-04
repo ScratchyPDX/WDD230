@@ -81,7 +81,7 @@ footer {
 header,
 main,
 footer {
-	max-width: 780px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 h1 {
@@ -95,7 +95,7 @@ h2 {
 nav {
 	background-color: var(--secondary-color);
 	margin: 0 auto;
-	max-width: 780px;
+	max-width: 900px;
 }
 
 nav button {
