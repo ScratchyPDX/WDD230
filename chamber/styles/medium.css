@@ -38,4 +38,19 @@
 	nav a {
 		font-size: 1rem;
 	}
+
+	.projectData div {
+		display: inline;
+		padding: 5px;
+	}
+	
+	.projectData div {
+		border-style: solid;
+		border-width: 0 2px 0 0;
+	}
+
+	.projectData div:nth-child(4) {
+		border-style: none;
+	}
+	
 }

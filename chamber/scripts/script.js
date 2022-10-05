@@ -25,7 +25,7 @@ const month = [
 const date = new Date();
 document.getElementById("today-date").textContent = `${weekday[date.getDay()]}, ${date.getDate()} ${month[date.getMonth()]} ${date.getFullYear()}`;
 document.getElementById("year").innerHTML = date.getFullYear();
-document.getElementById("last_modified").innerHTML = document.lastModified;
+document.getElementById("last_modified").innerHTML = `Last modified: ${document.lastModified}`;
 
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("open");
