@@ -74,7 +74,7 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: .75rem;
+	/* padding: .75rem; */
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -129,6 +129,11 @@ h2 {
 	align-items: center;
 	font-size: 20px;
 }
+
+.location img {
+	width: 70px;
+}
+
 .mapLink {
 	text-decoration: none;
 }
@@ -179,7 +184,7 @@ main {
 }
 
 main article {
-	margin: 1rem;
+	margin: 0.2em;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 1rem;
 	background-color: #eee;
@@ -225,4 +230,11 @@ th {
 .projectData {
 	text-align: center; 
 	padding: 10px;
+}
+
+.spotlight {
+	margin: 0.2em;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: .5rem;
+	background-color: #eee;
 }
