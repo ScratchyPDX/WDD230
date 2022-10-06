@@ -88,7 +88,7 @@ footer {
 
 header {
 	display: grid;
-	grid-template-columns: 100px 1fr 25px 25px;
+	grid-template-columns: 100px 1fr 50px 50px;
 	grid-template-rows: 1fr 0.3fr;
 }
 
@@ -204,7 +204,7 @@ main p {
 }
 
 .social-media-icon {
-	width: 25px;
+	width: 40px;
 }
 
 th {
