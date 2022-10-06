@@ -6,10 +6,6 @@
 		grid-column: span 2;
 	}
 
-	h1 {
-		font-size: 1.5rem;
-	}
-
 	.location {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
