@@ -207,6 +207,8 @@ main p {
 
 .social-media-icon {
 	width: 40px;
+	border-radius: 50%;
+	border: 1px solid black;
 }
 
 th {
