@@ -74,17 +74,15 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	/* padding: .75rem; */
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 header,
 main,
 footer {
-	max-width: 900px;
+	max-width: 1600px;
 	margin: 0 auto;
 }
-
 
 header {
 	display: grid;
@@ -143,7 +141,7 @@ h2 {
 nav {
 	background-color: var(--secondary-color);
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 1600px;
 }
 
 nav button {
@@ -171,7 +169,6 @@ nav a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 1rem;
-	/* background: linear-gradient(90deg, transparent, yellow, transparent) bottom / var(--d, 0) 3px no-repeat; */
 	transition: 0.5s;
 }
 

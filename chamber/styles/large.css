@@ -7,7 +7,6 @@
 
 	main {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		/* grid-template-rows: 200px 200px 200px; */
 	}
 
 	nav a {
@@ -23,11 +22,9 @@
 		grid-template-columns: repeat(4, 1fr);
 	}
 	
-	
 	nav ul li a {
     padding: 0.5rem 1rem;
   }
-
 		
 	#hero {
 		grid-column: 2/4;
