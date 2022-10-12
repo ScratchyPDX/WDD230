@@ -103,14 +103,6 @@ header .title {
 	padding: 2rem;
 }
 
-header #today-date {
-	grid-column: 1/6;
-	grid-row: 2/3;
-	text-align: center;
-	background-color:  var(--accent2-color);
-	padding: 5px;
-}
-
 h1 {
 	margin: 0;
 	/* font-size: 1.1rem; */
@@ -238,4 +230,12 @@ th {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: .5rem;
 	background-color: #eee;
+}
+
+.join-us {
+	background-color: var(--accent2-color);
+	padding: 10px;
+	text-align: center;
+	grid-column: 1/6;
+	grid-row: 2/3;
 }
