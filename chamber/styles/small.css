@@ -274,10 +274,14 @@ th {
 }
 
 .join-us {
-	background-color: var(--accent2-color);
+	background-color: var(--primary-color);
 	padding: 10px;
 	text-align: center;
 	grid-column: 1/6;
 	grid-row: 2/3;
+}
+
+.join-us .heading3 {
+	padding: 0;
 }
 
