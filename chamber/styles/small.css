@@ -257,19 +257,20 @@ th {
 	background-color: var(--accent2-color);
 }
 
-article h1, .spotlight h1 {
+.heading1 {
 	text-align: center;
 	background-color: var(--accent2-color);
-	display: flexbox;
 	font-weight: bold;
 	margin: auto;
+	font-size: 2rem;
 }
 
 
-article h2, article h3 {
+.heading2, .heading3 {
 	padding: 1rem;
 	margin-bottom: 0;
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 .join-us {
