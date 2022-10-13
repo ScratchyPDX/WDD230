@@ -179,6 +179,7 @@ main article {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #eee;
 	position: relative;
+	background-color: var(--accent1-color);
 }
 
 main article .button {
@@ -197,10 +198,12 @@ main article p {
 	font-size: 2rem;
 	position: absolute;
 	color: white;
+	text-shadow: 5px 5px 10px black;
 }
 
 main article img {
 	width: 100%;
+	height: 100%;
 }
 
 main ul {
@@ -251,7 +254,22 @@ th {
 	margin: 0.2em;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: .5rem;
-	background-color: #eee;
+	background-color: var(--accent2-color);
+}
+
+article h1, .spotlight h1 {
+	text-align: center;
+	background-color: var(--accent2-color);
+	display: flexbox;
+	font-weight: bold;
+	margin: auto;
+}
+
+
+article h2, article h3 {
+	padding: 1rem;
+	margin-bottom: 0;
+	text-align: center;
 }
 
 .join-us {
