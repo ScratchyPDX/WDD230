@@ -100,7 +100,7 @@ header .logo {
 header .title {
 	grid-column: 2/3;
 	grid-row: 1/2;
-	padding: 2rem;
+	padding: 0 2rem;
 }
 
 h1 {
