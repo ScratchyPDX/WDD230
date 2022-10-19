@@ -184,7 +184,7 @@ main article {
 
 main article .button {
 	position: absolute;
-	right: 2rem;
+	left: 2rem;
 	bottom: 2rem;
 	width: 12rem;
 	font-size: 2rem;
@@ -203,7 +203,7 @@ main article p {
 
 main article img {
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 }
 
 main ul {

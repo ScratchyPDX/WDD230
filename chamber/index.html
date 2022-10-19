@@ -40,7 +40,13 @@
   </nav>
   <main class="grid-display box-shadow">
     <article id="hero">
-      <img src="images/downtown-troutdale.jpg" alt="columbia river gorge looking east">
+      <picture>
+        <source media="(max-width: 500px)" srcset="images/wdd230-org-250.jpg">
+        <source media="(max-width: 959px)" srcset="images/wdd230-org-600.jpg">
+        <source media="(max-width: 1600px)" srcset="images/wdd230-org-800.jpg">
+        <img src="images/wdd230-org-1280.jpg" alt="logo">
+      </picture>
+      <!-- <img src="images/downtown-troutdale.jpg" alt="columbia river gorge looking east"> -->
       <button class="button">Contact Us</button>
     </article>
     <article id="event">
