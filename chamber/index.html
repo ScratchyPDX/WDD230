@@ -46,7 +46,6 @@
         <source media="(max-width: 1600px)" srcset="images/wdd230-org-800.jpg">
         <img src="images/wdd230-org-1280.jpg" alt="logo">
       </picture>
-      <!-- <img src="images/downtown-troutdale.jpg" alt="columbia river gorge looking east"> -->
       <button class="button">Contact Us</button>
     </article>
     <article id="event">
@@ -55,9 +54,10 @@
     </article>
     <article id="weather">
       <div class="heading1">Weather</div>
-      <img src="images/troutdale-weather.webp" alt="troutdale weather forecast">
-      <div class="heading2">Wind Speed: 14mph</div>
-      <div class="heading2">Wind Chill: N/A</div>
+      <img src="images/partly-sunny.webp" alt="partly sunny sky">
+      <div class="heading2">Temp: <span id="temperature">47</span>&deg;F</div>
+      <div class="heading2">Wind Speed: <span id="wind_speed">14</span>mph</div>
+      <div class="heading2">Wind Chill: <span id="wind_chill"></span></div>
     </article>
     <article id="news">
       <div class="heading1">News Release</div>
@@ -103,5 +103,6 @@
     </div>
   </footer>
   <script src="scripts/script.js"></script>
+  <script src="scripts/windchill.js"></script>
 </body>
 </html>

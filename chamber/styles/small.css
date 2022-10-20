@@ -203,7 +203,6 @@ main article p {
 
 main article img {
 	width: 100%;
-	/* height: 100%; */
 }
 
 main ul {
@@ -285,10 +284,14 @@ th {
 	padding: 0;
 }
 
-#weather{
-	display: grid;
-}
-
 #weather .heading2 {
 	padding: 0 0 2% 0;
+}
+
+#weather img {
+	/* width: 50px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
