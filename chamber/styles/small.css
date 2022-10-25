@@ -91,7 +91,7 @@ header {
 }
 
 header .logo {
-	padding-left: 0.3em;
+	padding: 0.3em;
 	width: 100px;
 	grid-column: 1/2;
 	grid-row: 1/2;
@@ -274,7 +274,7 @@ th {
 
 .join-us {
 	background-color: var(--primary-color);
-	padding: 10px;
+	padding: 0 1rem;
 	text-align: center;
 	grid-column: 1/6;
 	grid-row: 2/3;
