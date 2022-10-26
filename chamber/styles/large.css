@@ -68,6 +68,8 @@
 	.discover-item {
 		grid-column: 2/4;
 	}
-	
+	.discover-item picture img:hover {
+		transform: scale(2.5);
+	}
 }
 

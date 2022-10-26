@@ -74,7 +74,9 @@
 	}
 
 	.discover-item picture img:hover {
-		transform: scale(2.5);
+		position: relative;
+		left: -15em;
+		transform: scale(1.8);
 		transition: width 2s, height 2s, transform 2s;
 	}
 }
