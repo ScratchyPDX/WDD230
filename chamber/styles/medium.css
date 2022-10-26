@@ -70,17 +70,11 @@
 
 	.discover-item {
 		grid-column: 1/4;
-		display: grid;
 		grid-template-columns: 2% 96% 2%;
 	}
 
-	.discover-item picture {
-		grid-column: 2/3;
-		grid-row: 1/2;
-	}
-
-	.discover-item .heading4 {
-		grid-column: 2/3;
-		grid-row: 2/3;
+	.discover-item picture img:hover {
+		transform: scale(2);
+		transition: width 2s, height 2s, transform 2s;
 	}
 }

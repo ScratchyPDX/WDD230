@@ -64,13 +64,9 @@
 	.spotlight .article {
 		width: 100%;
 	}
-	.discover-main {
-		grid-template-columns: 1fr 3fr 3fr 1fr;
-	}
 
 	.discover-item {
 		grid-column: 2/4;
-		grid-template-columns: 2% 96% 2%;
 	}
 	
 }
