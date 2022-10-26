@@ -331,8 +331,3 @@ th {
 .discover-item picture img[data-src] {
   filter: blur(0.2em);
 }
-
-.discover-item picture img:hover {
-	transform: scale(2);
-	transition: width 2s, height 2s, transform 2s;
-}
