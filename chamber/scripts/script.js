@@ -81,7 +81,7 @@ if ("IntersectionObserver" in window) {
 // local storage exercise
 const last_visited_date = localStorage.getItem("last-visit-date");
 const todays_date = Date.now();
-const total_number_of_days_since_last_visit = Math.floor((todays_date - last_visited_date) / 86400000);
+const total_number_of_days_since_last_visit = Math.ceil((todays_date - last_visited_date) / 86400000);
 
 let last_visited_element = document.getElementById("last-visited-in-days");
 if(total_number_of_days_since_last_visit > 0) {
