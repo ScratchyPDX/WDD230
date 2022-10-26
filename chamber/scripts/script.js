@@ -77,3 +77,17 @@ if ("IntersectionObserver" in window) {
     loadImages(img);
   });
 }
+
+// local storage exercise
+const last_visited_date = localStorage.getItem("last-visit-date");
+const todays_date = Date.now();
+const total_number_of_days_since_last_visit = Math.floor((todays_date - last_visited_date) / 86400000);
+
+let last_visited_element = document.getElementById("last-visited-in-days");
+if(total_number_of_days_since_last_visit > 0) {
+  last_visited_element.textContent = `You last visited this site ${total_number_of_days_since_last_visit} day(s) ago`;
+}
+else {
+  last_visited_element.textContent = "This is your first visit to our site. Welcome!"
+}
+localStorage.setItem("last-visit-date", todays_date);

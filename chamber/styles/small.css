@@ -288,9 +288,14 @@ th {
 	grid-row: 2/3;
 }
 
-.join-us .heading3 {
+.join-us .heading3, .local-storage-exercise .heading3 {
 	padding: 0;
 }
+
+.local-storage-exercise {
+	padding: 0.5rem
+}
+
 
 #weather .heading2 {
 	padding: 0 0 2% 0;
