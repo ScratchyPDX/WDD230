@@ -39,11 +39,10 @@
   <main class="grid-display box-shadow">
     <div class="article" id="hero">
       <picture>
-        <img 
-            src="images/downtown-troutdale.webp" 
-            alt="wdd 230 image" 
-            sizes="50vw" 
-            srcset="downtown-troutdale-250.webp 250w, images/downtown-troutdale-500.webp 500w, images/downtown-troutdale-800.webp 800w">
+        <source media="(min-width:800px)" srcset="images/downtown-troutdale-800.webp">
+        <source media="(min-width:500px)" srcset="images/downtown-troutdale-500.webp">
+        <source media="(min-width:200px)" srcset="images/downtown-troutdale-250.webp">
+        <img src="images/downtown-troutdale.webp" alt="downtown troutdale">
       </picture>
       <button class="button">Contact Us</button>
     </div>
