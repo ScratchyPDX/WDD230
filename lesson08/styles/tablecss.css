@@ -20,7 +20,7 @@ table {
   box-shadow: 0 0 10px 5px grey;
 }
 
-table caption {
+#caption, #high_sale {
   background-color: rgb(39, 180, 140);
 }
 
@@ -28,7 +28,7 @@ th {
   background-color: rgb(51, 238, 185);
 }
 
-table caption, .row td, .row th, tfoot td {
+#caption, .row td, .row th, tfoot td {
   padding: 10px;
 }
 
@@ -38,8 +38,4 @@ table caption, .row td, .row th, tfoot td {
 
 th, td {
   border: 1px solid black;
-}
-
-#high_sale {
-  background-color: rgb(39, 180, 140);
 }
