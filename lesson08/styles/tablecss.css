@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  box-shadow: 0 0 10px 5px grey;
+}
+
+table caption {
+  background-color: rgb(39, 180, 140);
+}
+
+th {
+  background-color: rgb(51, 238, 185);
+}
+
+table caption, .row td, .row th, tfoot td {
+  padding: 10px;
+}
+
+.row:nth-child(even) {
+  background-color: lightgray;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+#high_sale {
+  background-color: rgb(39, 180, 140);
+}
