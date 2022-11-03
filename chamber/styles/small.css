@@ -204,7 +204,7 @@ th {
 }
 .join-us {
   background-color: var(--primary-color);
-  padding: 0 1rem;
+  padding: 1rem;
   text-align: center;
   grid-column: 1/6;
   grid-row: 2/3;
