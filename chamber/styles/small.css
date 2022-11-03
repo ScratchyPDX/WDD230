@@ -97,6 +97,9 @@ nav ul {
   overflow: hidden;
   display: none;
 }
+nav ul.open {
+  display: grid;
+}
 nav a {
   display: block;
   color: #fff;
