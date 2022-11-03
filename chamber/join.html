@@ -37,7 +37,7 @@
     </ul>
   </nav>
   <main>
-    <form method="get" action="thanksyou.html">
+    <form method="get" action="thankyou.html">
       <fieldset>
         <legend>Applicant Information</legend>
         <label class="top">First Name *<input type="text" name="fname" required></label>
@@ -48,7 +48,7 @@
 
       <fieldset>
         <legend>Business Information</legend>
-        <label class="top">Business Title<input type="text" name="title" pattern="[a-zA-Z0-9 -]{7}"></label>
+        <label class="top">Business Title<input type="text" name="title" pattern="^[\w\s-]{7,}$"></label>
         <label class="top">Business Name *<input type="text" name="business-name" required></label>
         <label class="top">Business Description<input type="textarea" name="business-description"></label>
       </fieldset>
