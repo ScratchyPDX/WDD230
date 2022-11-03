@@ -292,6 +292,7 @@ form .member-level label {
 form .member-level p {
   color: grey;
   padding: .2rem;
+  margin-left: .9rem;
 }
 
 form input.submit-button {
