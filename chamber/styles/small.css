@@ -241,3 +241,74 @@ th {
 .discover-item picture img[data-src] {
   filter: blur(0.2em);
 }
+
+.application-accepted {
+  padding: 0 2%;
+  min-height: 20rem;
+}
+
+/* ----------- FORM STYLING ------------*/
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: blue;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  columns: red;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: ghostwhite;
+}
+
+form .member-level {
+  padding-bottom:  .75rem;
+}
+
+form .member-level label {
+  font-size: 1rem;
+}
+
+form .member-level p {
+  color: grey;
+  padding: .2rem;
+}
+
+form input.submit-button {
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: 6px solid red;
+}
+
+form label.top input:valid {
+border-left: 6px solid green;
+}
