@@ -253,7 +253,7 @@ th {
 /* ----------- FORM STYLING ------------*/
 
 form fieldset {
-  margin: 2rem 0;
+  margin: 2rem;
   border: 1px solid black;
   border-radius: 10px;
   padding: .5rem 2%;
