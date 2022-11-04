@@ -57,4 +57,7 @@
     padding: .4rem 0;
   }
 
+  form input.submit-button { 
+    margin: 0 0 2rem 2%;
+  }
 }

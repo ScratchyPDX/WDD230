@@ -61,4 +61,8 @@
     transform: scale(1.8);
     transition: width 2s, height 2s, transform 2s;
   }
+
+  form input.submit-button { 
+    margin: 0 0 2rem 4%;
+  }
 }
