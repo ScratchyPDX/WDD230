@@ -2,6 +2,7 @@
 body {
   font-size: 16px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
+  background-color: #0077b6;
 }
 
 header,
@@ -12,15 +13,17 @@ footer {
 }
 
 h1 {
-  color: #000;
+  color: white;
   border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #999;
-  width: 60%;
+  text-shadow: 0 0 15px #000;
+  width: 100%;
+  text-align: center;
 }
 
 h2 {
   color: blue;
   margin: 0;
+  text-shadow: 0 0 15px #00b4d8;
 }
 
 h3 {
@@ -48,7 +51,7 @@ main {
 section {
   margin: 0.25rem;
   padding: 0.35rem;
-  background-color: #eee;
+  background-color: #caf0f8;
   border: 1px solid #bbb;
   display: flex;
   flex-direction: column;
@@ -61,9 +64,10 @@ section > p {
 img {
   width: auto;
 	max-width: 325px;
-  box-shadow: 0 0 30px #777;
+  box-shadow: 0 0 30px #000;
   height: 200px;
   border: 1px solid #333;
+  margin: 1rem;
 }
 
 li > img {
