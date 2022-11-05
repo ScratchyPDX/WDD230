@@ -30,19 +30,6 @@ h3 {
   margin: 0;
 }
 
-h4 {
-  color: #333;
-  margin: 7px 0 5px 0;
-}
-
-p {
-  margin: 0;
-}
-
-main {
-  margin-left: 2rem;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
