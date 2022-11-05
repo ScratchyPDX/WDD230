@@ -7,11 +7,9 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const prophets = jsonObject["prophets"];
+    prophets.forEach(displayProphets);
   });
-
-const prophets = jsonObject['prophets'];
-
-prophets.forEach(displayProphets);
 
 function displayProphets(prophet) {
   // Create elements to add to the document
@@ -23,13 +21,13 @@ function displayProphets(prophet) {
 
   // Change the textContent property of the h2 element to contain the prophet's full name
   h2.textContent = `${prophet.name} ${prophet.lastname}`;
-  birthDate = `Date of Birth: ${prophet.birthDate}`;
-  birthPlace = `Place of Birth: ${prophet.birthPlace}`;
+  birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
+  birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-  ____.setAttribute('src', prophet.imageurl);
-  ____.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-Day Prophet`);
-  ____.setAttribute('loading', 'lazy');
+  portrait.setAttribute('src', prophet.imageurl);
+  portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order} Latter-Day Prophet`);
+  portrait.setAttribute('loading', 'lazy');
 
   // Add/append the section(card) with the h2 element
   card.appendChild(h2);
