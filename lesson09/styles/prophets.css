@@ -57,9 +57,6 @@ section {
   flex-direction: column;
   align-items: center;
 }
-section > p {
-  min-height: 60px;
-}
 
 img {
   width: auto;
@@ -70,52 +67,14 @@ img {
   margin: 1rem;
 }
 
-li > img {
-  width: auto;
-  height: 30px;
+img:hover {
+  position: relative;
+  transform: scale(2);
+  transition: width 2s, height 2s, transform 2s;
 }
 
 footer {
   border-top: 1px solid #555;
   padding: 20px;
-}
-
-.caption {
-  position: absolute;
-  top: 1.5rem;
-  right: 2rem;
-  border: 1px solid #ccc;
-  background-color: lightyellow;
-  padding: 0.25rem;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1rem 1fr;
-}
-
-.caption h6 {
-  position: absolute;
-  top: -2.3rem;
-  left: -0.25rem;
-}
-
-.caption > div {
-  width: 0.75rem;
-  height: 0.75rem;
-  border: 1px solid #bbb;
-}
-
-.caption > p {
-  font-size: 0.75rem;
-}
-
-.most {
-  background-color: #bed;
-}
-
-.fav {
-  background-color: skyblue;
-}
-
-.own {
-  background-color: rosybrown;
+  text-align: center;
 }
