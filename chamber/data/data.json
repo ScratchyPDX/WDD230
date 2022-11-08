@@ -1,0 +1,173 @@
+{
+  "members": [
+
+    {
+      "logo": "images/directory/artistree.jpg",
+      "business_name": "Artistree NW",
+      "address": "103 W Historic Columbia River Hwy",
+      "city": "Troutdale",
+      "state": "OR",
+      "zip_code": "97060",
+      "contact_name": "Jean Linn",
+      "work_phone": "503-869-4902",
+      "work_email": "artistreenw@gmail.com",
+      "website": ""
+    },
+    {
+      "logo": "/images/directory/bandits-bar-and-grill.jpg",
+      "business_name": "Bandits Bar and Grill",
+      "address": "108 E Columbia River Hwy",
+      "city": "Troutdale",
+      "state": "OR",
+      "zip_code": "97060",
+      "contact_name": "",
+      "work_phone": "503-328-8120",
+      "work_email": "",
+      "website": "https://www.banditstroutdale.com/"
+    },
+    {
+      "logo": "/images/directory/us-army-corps-of-engineers.jpg",
+      "business_name": "Bonneville Lock & Dam Visitor Center",
+      "address": "I-84 Exit 40",
+      "city": "Bonneville",
+      "state": "OR",
+      "zip_code": "97014",
+      "contact_name": "Lucille Ausman",
+      "work_phone": "541-374-8820",
+      "work_email": "Lucille.M.Ausman@usace.army.mil",
+      "website": "http://www.nwp.usace.army.mil/bonneville/"
+    },
+    {
+      "logo": null,
+      "business_name": "Cascade Locks Tourism Committee",
+      "address": "140 WaNaPa Street",
+      "city": "Cascade Locks",
+      "state": "OR",
+      "zip_code": "97014",
+      "contact_name": "Annie VanDomelen",
+      "work_phone": "541-374-8484",
+      "work_email": "",
+      "website": "tourism@cascade-locks.or.us"
+    },
+    {
+      "logo": "/images/directory/columbia-river-gallery.jpg",
+      "business_name": "Columbia River Gallery",
+      "address": "303 E. Historic Columbia River Hwy.",
+      "city": "Troutdale",
+      "state": "OR",
+      "zip_code": "97060",
+      "contact_name": "Donna Erwin",
+      "work_phone": "503-491-8407",
+      "work_email": "columbiarivergallery@yahoo.com",
+      "website": "http://www.columbiarivergallery.com"
+    },
+    {
+      "logo": "/images/directory/east-count-historical-society.jpg",
+      "business_name": "East County Historical Society",
+      "address": "PO BOX 946",
+      "city": "Fairview",
+      "state": "OR",
+      "zip_code": "97024",
+      "contact_name": "Peggy",
+      "work_phone": "503-261-8078",
+      "work_email": "info@echohistory.org",
+      "website": "https://www.echohistory.org/"
+    },
+    {
+      "logo": "/images/directory/gandy-legal-service.jpg",
+      "business_name": "Gandy Legal Services",
+      "address": "PO Box 487",
+      "city": "Corbett",
+      "state": "OR",
+      "zip_code": "97019",
+      "contact_name": "Rebecca Gandy",
+      "work_phone": "503-753-4267",
+      "work_email": "rebgandy@gmail.com",
+      "website": "http://www.gandylegalservices.com"
+    },
+    {
+      "logo": "images/directory/gresham-memorial-chapel.png",
+      "business_name": "Gresham Memorial Chapel",
+      "address": "257 SE Roberts",
+      "city": "Gresham",
+      "state": "OR",
+      "zip_code": "97080",
+      "contact_name": "John Gerbish",
+      "work_phone": "503-618-8176",
+      "work_email": "jcg-gfc@frontier.com",
+      "website": "www.greshamfuneral.com"
+    },
+    {
+      "logo": "images/directory/hbi-logo.jpg",
+      "business_name": "HBI General Contractor",
+      "address": "110 East Historic Columbia River Hwy, #7",
+      "city": "Troutdale",
+      "state": "OR",
+      "zip_code": "97060",
+      "contact_name": "Jane and Bob Regan",
+      "work_phone": "650-346-6650",
+      "work_email": "janerhbi@gmail.com",
+      "website": "http://www.hbigeneralcontractor.com/"
+    },
+    {
+      "logo": "images/directory/kiwanis-logo.jpg",
+      "business_name": "Kiwanis Club of the Columbia Gorge",
+      "address": "PO BOX 152",
+      "city": "Troutdale",
+      "state": "OR",
+      "zip_code": "97060",
+      "contact_name": "John Leamy",
+      "work_phone": "503-704-7653",
+      "work_email": "jleamy3@comcast.net",
+      "website": "http://www.columbiagorgekiwanis.org/"
+    },
+    {
+      "logo": "images/directory/mla-logo.jpg",
+      "business_name": "MLA Public Charter School",
+      "address": "22565 NE Halsey St",
+      "city": "Fairview",
+      "state": "OR",
+      "zip_code": "97024",
+      "contact_name": "JoAnn Lindenthal",
+      "work_phone": "503-405-7868 x232",
+      "work_email": "jlindenthal@mla.k12.or.us",
+      "website": "http://www.mla.k12.or.us"
+    },
+    {
+      "logo": "images/directory/multnomah-falls-lodge.jpg",
+      "business_name": "Multnomah Falls Lodge",
+      "address": "53000 Historic Columbia River Hwy",
+      "city": "Bridal Veil",
+      "state": "OR",
+      "zip_code": "97010",
+      "contact_name": "Jill Willis",
+      "work_phone": "503-695-2376",
+      "work_email": "jill@multnomahfallslodge.com",
+      "website": "http://www.multnomahfallslodge.com"
+    },
+    {
+      "logo": "images/directory/spruce-gifts-provisions.jpg",
+      "business_name": "Spruce Gifts and Provisions",
+      "address": "70741 NE Sturgeon Lane",
+      "city": "Cascade Locks",
+      "state": "OR",
+      "zip_code": "97014",
+      "contact_name": "Angel Williams",
+      "work_phone": "541-374-8447",
+      "work_email": "sprucegiftsandprovisions@myowf.org",
+      "website": "http://myowf.org/"
+    },
+    {
+      "logo": "images/directory/troutdale-house.jpg",
+      "business_name": "The Troutdale House by the Sandy River",
+      "address": "411 E. Historic Columbia River",
+      "city": "Troutdale",
+      "state": "OR",
+      "zip_code": "97060",
+      "contact_name": "Laura Burlus",
+      "work_phone": "503-481-9449",
+      "work_email": "thetroutdalehouse@gmail.com",
+      "website": "http://www.thetroutdalehouse.com"
+    }
+  ]
+}
