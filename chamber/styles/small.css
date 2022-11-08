@@ -315,3 +315,27 @@ form label.top input:required {
 form label.top input:valid {
 border-left: 6px solid green;
 }
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  background-color: #caf0f8;
+  border: 1px solid #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards section img {
+  width: auto;
+	max-width: 325px;
+  box-shadow: 0 0 30px #000;
+  height: 200px;
+  border: 1px solid #333;
+  margin: 1rem;
+}

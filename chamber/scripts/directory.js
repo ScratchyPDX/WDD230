@@ -6,34 +6,37 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-    // const prophets = jsonObject["prophets"];
-    // prophets.forEach(displayProphets);
+    // console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const members = jsonObject["members"];
+    members.forEach(displayMembers);
   });
 
-function displayProphets(prophet) {
+function displayMembers(member) {
   // Create elements to add to the document
   let card = document.createElement('section');
-  let h2 = document.createElement('h2');
-  let portrait = document.createElement('img');
-  let birthDate = document.createElement('h3');
-  let birthPlace = document.createElement('h3');
-
+  let businessName = document.createElement('h2');
+  businessName.className = "heading2"
+  let logo = document.createElement('img');
+  let workPhone = document.createElement('h3');
+  workPhone.className = "heading3"
+  let emailAddress = document.createElement('h3');
+  emailAddress.className = "heading3"
+  
   // Change the textContent property of the h2 element to contain the prophet's full name
-  h2.textContent = `${prophet.name} ${prophet.lastname}`;
-  birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
-  birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
+  businessName.textContent = `${member.business_name}`;
+  workPhone.textContent = `${member.work_phone}`;
+  emailAddress.textContent = `${member.work_email}`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-  portrait.setAttribute('src', prophet.imageurl);
-  portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-Day Prophet`);
-  portrait.setAttribute('loading', 'lazy');
+  logo.setAttribute('src', member.logo);
+  logo.setAttribute('alt', `Logo of ${member.business_name}`);
+  logo.setAttribute('loading', 'lazy');
 
   // Add/append the section(card) with the h2 element
-  card.appendChild(h2);
-  card.appendChild(birthDate);
-  card.appendChild(birthPlace);
-  card.appendChild(portrait);
+  card.appendChild(logo);
+  card.appendChild(businessName);
+  card.appendChild(workPhone);
+  card.appendChild(emailAddress);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.cards').appendChild(card);

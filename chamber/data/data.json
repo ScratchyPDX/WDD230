@@ -14,7 +14,7 @@
       "website": ""
     },
     {
-      "logo": "/images/directory/bandits-bar-and-grill.jpg",
+      "logo": "images/directory/bandits-bar-and-grill.jpg",
       "business_name": "Bandits Bar and Grill",
       "address": "108 E Columbia River Hwy",
       "city": "Troutdale",
@@ -26,7 +26,7 @@
       "website": "https://www.banditstroutdale.com/"
     },
     {
-      "logo": "/images/directory/us-army-corps-of-engineers.jpg",
+      "logo": "images/directory/us-army-corps-of-engineers.jpg",
       "business_name": "Bonneville Lock & Dam Visitor Center",
       "address": "I-84 Exit 40",
       "city": "Bonneville",
@@ -38,7 +38,7 @@
       "website": "http://www.nwp.usace.army.mil/bonneville/"
     },
     {
-      "logo": null,
+      "logo": "images/directory/cascade-locks.jfif",
       "business_name": "Cascade Locks Tourism Committee",
       "address": "140 WaNaPa Street",
       "city": "Cascade Locks",
@@ -50,7 +50,7 @@
       "website": "tourism@cascade-locks.or.us"
     },
     {
-      "logo": "/images/directory/columbia-river-gallery.jpg",
+      "logo": "images/directory/columbia-river-gallery.jpg",
       "business_name": "Columbia River Gallery",
       "address": "303 E. Historic Columbia River Hwy.",
       "city": "Troutdale",
@@ -62,7 +62,7 @@
       "website": "http://www.columbiarivergallery.com"
     },
     {
-      "logo": "/images/directory/east-count-historical-society.jpg",
+      "logo": "images/directory/east-county-historical-society.jpeg",
       "business_name": "East County Historical Society",
       "address": "PO BOX 946",
       "city": "Fairview",
@@ -74,7 +74,7 @@
       "website": "https://www.echohistory.org/"
     },
     {
-      "logo": "/images/directory/gandy-legal-service.jpg",
+      "logo": "images/directory/gandy-legal-service.jpg",
       "business_name": "Gandy Legal Services",
       "address": "PO Box 487",
       "city": "Corbett",
@@ -98,7 +98,7 @@
       "website": "www.greshamfuneral.com"
     },
     {
-      "logo": "images/directory/hbi-logo.jpg",
+      "logo": "images/directory/hbi-logo.jpeg",
       "business_name": "HBI General Contractor",
       "address": "110 East Historic Columbia River Hwy, #7",
       "city": "Troutdale",
@@ -134,7 +134,7 @@
       "website": "http://www.mla.k12.or.us"
     },
     {
-      "logo": "images/directory/multnomah-falls-lodge.jpg",
+      "logo": "images/directory/multnomah-falls-lodge.png",
       "business_name": "Multnomah Falls Lodge",
       "address": "53000 Historic Columbia River Hwy",
       "city": "Bridal Veil",
