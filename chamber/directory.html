@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/large.css">
-  <title>Chamber of Commerce | Home</title>
+  <title>Chamber of Commerce | Directory</title>
 </head>
 <body>
   <header class="box-shadow">
@@ -30,54 +30,15 @@
   <nav class="box-shadow">
     <button type="button" id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
     <ul id="primaryNav">
-      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="discover.html">Discover</a></li>
-      <li><a href="directory.html">Directory</a></li>
+      <li class="active"><a href="directory.html">Directory</a></li>
       <li><a href="join.html">Join</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">Contact</a></li>                                                    
     </ul>
   </nav>
-  <main class="grid-display box-shadow">
-    <div class="article" id="hero">
-      <picture>
-        <source media="(min-width:800px)" srcset="images/downtown-troutdale-800.webp">
-        <source media="(min-width:500px)" srcset="images/downtown-troutdale-500.webp">
-        <source media="(min-width:200px)" srcset="images/downtown-troutdale-250.webp">
-        <img src="images/downtown-troutdale.webp" alt="downtown troutdale">
-      </picture>
-      <button class="button">Contact Us</button>
-    </div>
-    <div class="article" id="event">
-      <div class="heading1">Annual Marketplace Trade Show</div>
-      <div class="heading2">October 19th - Troutdale House: Being held on Oct 19th form 4pm to 7:30pm. Members can have a table for free. This will be the welcome back to business</div>
-    </div>
-    <div class="article" id="weather">
-      <div class="heading1">Weather</div>
-      <img src="images/partly-sunny.webp" alt="partly sunny sky">
-      <div class="heading2">Temp: <span id="temperature">47</span>&deg;F</div>
-      <div class="heading2">Wind Speed: <span id="wind_speed">14</span>mph</div>
-      <div class="heading2">Wind Chill: <span id="wind_chill"></span></div>
-    </div>
-    <div class="article" id="news">
-      <div class="heading1">News Release</div>
-      <div class="heading2">TriMet is considering some big changes - some of which would directly impact service in Troutdale. See their draft concept and have your say at <a href="http://trimet.org/forward">http://trimet.org/forward</a></div>
-    </div>
-    <div class="article" id="join">
-      <div class="heading1">Join our growing membership</div>
-      <div class="heading2">Contact Us: troutdaleinfo@.city.gov</div>
-    </div>
-    <div class="spotlight">
-      <div class="heading1">Membership Goals</div>
-      <div class="article">
-        <div class="heading2">Increase Member Roll, Community Engagement, and Encourage Growth</div>
-      </div>
-      <div class="article">
-        <div class="heading2">Serve As the Voice of Business Advocating for Solutions</div>
-      </div>
-      <div class="article">
-        <div class="heading2">Expand the Number Networking Events Offered Monthly</div>
-      </div>
-    </div>
+  <main>
+    <div class="cards grid"></div>
   </main>
   <footer class="box-shadow">
     <div class="local-storage-exercise">
@@ -104,6 +65,6 @@
     </div>
   </footer>
   <script src="scripts/script.js"></script>
-  <script src="scripts/windchill.js"></script>
+  <script src="scripts/directory.js"></script>
 </body>
 </html>
