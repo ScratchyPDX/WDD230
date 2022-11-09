@@ -2,7 +2,7 @@
   "members": [
 
     {
-      "logo": "images/directory/artistree.jpg",
+      "logo": "images/directory/artistree.webp",
       "business_name": "Artistree NW",
       "address": "103 W Historic Columbia River Hwy",
       "city": "Troutdale",
@@ -14,7 +14,7 @@
       "website": ""
     },
     {
-      "logo": "images/directory/bandits-bar-and-grill.jpg",
+      "logo": "images/directory/bandits-bar-and-grill.webp",
       "business_name": "Bandits Bar and Grill",
       "address": "108 E Columbia River Hwy",
       "city": "Troutdale",
@@ -26,7 +26,7 @@
       "website": "https://www.banditstroutdale.com/"
     },
     {
-      "logo": "images/directory/us-army-corps-of-engineers.jpg",
+      "logo": "images/directory/us-army-corps-of-engineers.webp",
       "business_name": "Bonneville Lock & Dam Visitor Center",
       "address": "I-84 Exit 40",
       "city": "Bonneville",
@@ -38,7 +38,7 @@
       "website": "http://www.nwp.usace.army.mil/bonneville/"
     },
     {
-      "logo": "images/directory/cascade-locks.jfif",
+      "logo": "images/directory/cascade-locks.webp",
       "business_name": "Cascade Locks Tourism Committee",
       "address": "140 WaNaPa Street",
       "city": "Cascade Locks",
@@ -50,7 +50,7 @@
       "website": "tourism@cascade-locks.or.us"
     },
     {
-      "logo": "images/directory/columbia-river-gallery.jpg",
+      "logo": "images/directory/columbia-river-gallery.webp",
       "business_name": "Columbia River Gallery",
       "address": "303 E. Historic Columbia River Hwy.",
       "city": "Troutdale",
@@ -62,7 +62,7 @@
       "website": "http://www.columbiarivergallery.com"
     },
     {
-      "logo": "images/directory/east-county-historical-society.jpeg",
+      "logo": "images/directory/east-county-historical-society.webp",
       "business_name": "East County Historical Society",
       "address": "PO BOX 946",
       "city": "Fairview",
@@ -74,7 +74,7 @@
       "website": "https://www.echohistory.org/"
     },
     {
-      "logo": "images/directory/gandy-legal-service.jpg",
+      "logo": "images/directory/gandy-legal-service.webp",
       "business_name": "Gandy Legal Services",
       "address": "PO Box 487",
       "city": "Corbett",
@@ -86,7 +86,7 @@
       "website": "http://www.gandylegalservices.com"
     },
     {
-      "logo": "images/directory/gresham-memorial-chapel.png",
+      "logo": "images/directory/gresham-memorial-chapel.webp",
       "business_name": "Gresham Memorial Chapel",
       "address": "257 SE Roberts",
       "city": "Gresham",
@@ -98,7 +98,7 @@
       "website": "www.greshamfuneral.com"
     },
     {
-      "logo": "images/directory/hbi-logo.jpeg",
+      "logo": "images/directory/hbi-logo.webp",
       "business_name": "HBI General Contractor",
       "address": "110 East Historic Columbia River Hwy, #7",
       "city": "Troutdale",
@@ -110,7 +110,7 @@
       "website": "http://www.hbigeneralcontractor.com/"
     },
     {
-      "logo": "images/directory/kiwanis-logo.jpg",
+      "logo": "images/directory/kiwanis-logo.webp",
       "business_name": "Kiwanis Club of the Columbia Gorge",
       "address": "PO BOX 152",
       "city": "Troutdale",
@@ -122,7 +122,7 @@
       "website": "http://www.columbiagorgekiwanis.org/"
     },
     {
-      "logo": "images/directory/mla-logo.jpg",
+      "logo": "images/directory/mla-logo.webp",
       "business_name": "MLA Public Charter School",
       "address": "22565 NE Halsey St",
       "city": "Fairview",
@@ -134,7 +134,7 @@
       "website": "http://www.mla.k12.or.us"
     },
     {
-      "logo": "images/directory/multnomah-falls-lodge.png",
+      "logo": "images/directory/multnomah-falls-lodge.webp",
       "business_name": "Multnomah Falls Lodge",
       "address": "53000 Historic Columbia River Hwy",
       "city": "Bridal Veil",
@@ -146,7 +146,7 @@
       "website": "http://www.multnomahfallslodge.com"
     },
     {
-      "logo": "images/directory/spruce-gifts-provisions.jpg",
+      "logo": "images/directory/spruce-gifts-provisions.webp",
       "business_name": "Spruce Gifts and Provisions",
       "address": "70741 NE Sturgeon Lane",
       "city": "Cascade Locks",
@@ -158,7 +158,7 @@
       "website": "http://myowf.org/"
     },
     {
-      "logo": "images/directory/troutdale-house.jpg",
+      "logo": "images/directory/troutdale-house.webp",
       "business_name": "The Troutdale House by the Sandy River",
       "address": "411 E. Historic Columbia River",
       "city": "Troutdale",
