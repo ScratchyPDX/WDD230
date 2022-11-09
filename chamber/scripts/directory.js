@@ -41,3 +41,18 @@ function displayMembers(member) {
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector('div.cards').appendChild(card);
 }
+
+/*buttons*/
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards-grid");
+
+listbutton.addEventListener("click", () => {
+    display.classList.add("cards-list");
+    display.classList.remove("cards-grid");
+});
+
+gridbutton.addEventListener("click", () => {
+    display.classList.add("cards-grid");
+    display.classList.remove("cards-list");
+})
