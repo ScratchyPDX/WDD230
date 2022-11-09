@@ -253,26 +253,22 @@ th {
 }
 
 /* ----------- FORM STYLING ------------*/
-
 form fieldset {
   margin: 2rem;
   border: 1px solid black;
   border-radius: 10px;
   padding: .5rem 2%;
 }
-
 form legend {
   color: blue;
   margin: 0 1rem;
   padding: 0 .5rem;
 }
-
 form label.top, form div {
   display: block;
   padding-top: 1rem;
   font-size: .8rem;
 }
-
 form label.top input, form label.top textarea, form label.top select {
   display: block;
   font-size: 1rem;
@@ -284,21 +280,17 @@ form label.top input, form label.top textarea, form label.top select {
   max-width: 20rem;
   background-color: ghostwhite;
 }
-
 form .member-level {
   padding-bottom:  .75rem;
 }
-
 form .member-level label {
   font-size: 1rem;
 }
-
 form .member-level p {
   color: grey;
   padding: .2rem;
   margin-left: .9rem;
 }
-
 form input.submit-button {
   border: none;
   background-color: var(--primary-color);
@@ -309,20 +301,18 @@ form input.submit-button {
   width: 96%;
   max-width: 20rem;
 }
-
 form label.top input:required {
   border-left: 6px solid red;
 }
-
 form label.top input:valid {
 border-left: 6px solid green;
 }
 
+ /* directory formatting */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
-
 .cards section {
   margin: 0.25rem;
   padding: 0.35rem;
@@ -332,7 +322,6 @@ border-left: 6px solid green;
   flex-direction: column;
   align-items: center;
 }
-
 .cards section img {
   width: auto;
 	max-width: 325px;
@@ -341,12 +330,10 @@ border-left: 6px solid green;
   border: 1px solid #333;
   margin: 1rem;
 }
-
 #directory-buttons {
   text-align: center;
   padding: 0.5rem;
 }
-
 #directory-buttons button {
   width: 12rem;
   font-size: 2rem;
