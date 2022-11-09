@@ -65,4 +65,31 @@
   form input.submit-button { 
     margin: 0 0 2rem 4%;
   }
+
+  .cards-grid section img {
+    height: 200px;
+  }
+  
+  .cards-list section {
+    display:flex;
+  }
+  
+  .cards-list section img {
+    width: auto;
+    height: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .cards-list .heading2, .cards-list .heading3 {
+    font-size: 1.5rem;
+  }
+  .cards-list .heading4, .cards-list .email, .cards-list .phone {
+    font-size: 1rem;
+  }
+
+  .cards-list .heading2 {
+    display: block;
+  }
+  
 }

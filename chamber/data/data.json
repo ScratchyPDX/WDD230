@@ -168,6 +168,18 @@
       "work_phone": "503-481-9449",
       "work_email": "thetroutdalehouse@gmail.com",
       "website": "http://www.thetroutdalehouse.com"
+    },
+    {
+      "logo": "images/directory/waterfall-trolley.gif",
+      "business_name": "Waterfall Trolley",
+      "address": null,
+      "city": null,
+      "state": null,
+      "zip_code": null,
+      "contact_name": null,
+      "work_phone": "503-241-7474",
+      "work_email": "sales@waterfalltrolley.com",
+      "website": "https://www.graylineofportland.com/"
     }
   ]
 }
