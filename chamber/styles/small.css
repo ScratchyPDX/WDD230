@@ -180,7 +180,9 @@ th {
 }
 .heading1,
 .heading2,
-.heading3 {
+.heading3,
+.email,
+.phone {
   text-align: center;
 }
 .heading2,
@@ -199,7 +201,7 @@ th {
 .heading3 {
   font-size: 1.5rem;
 }
-.heading4 {
+.heading4, .email, .phone {
   font-size: 1rem;
 }
 .join-us {

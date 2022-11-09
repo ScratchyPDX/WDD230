@@ -18,9 +18,9 @@ function displayMembers(member) {
   businessName.className = "heading2"
   let logo = document.createElement('img');
   let workPhone = document.createElement('h3');
-  workPhone.className = "heading3"
+  workPhone.className = "phone"
   let emailAddress = document.createElement('h3');
-  emailAddress.className = "heading3"
+  emailAddress.className = "email"
   
   // Change the textContent property of the h2 element to contain the prophet's full name
   businessName.textContent = `${member.business_name}`;
