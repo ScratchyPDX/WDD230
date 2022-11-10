@@ -60,4 +60,26 @@
   form input.submit-button { 
     margin: 0 0 2rem 2%;
   }
+
+    
+  .cards-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-list section {
+    display:flex;
+    width: 1000px
+  }
+  
+  .cards-list section img {
+    width: 100px;
+  }
+
+  .cards-list .heading2, .cards-list .heading3 {
+    font-size: 1.5rem;
+  }
+  .cards-list .heading4, .cards-list .email, .cards-list .phone {
+    font-size: 1rem;
+  }
 }
