@@ -70,15 +70,18 @@
     height: 200px;
   }
   
+  .cards-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
   .cards-list section {
     display:flex;
+    width: 1000px
   }
   
   .cards-list section img {
-    width: auto;
-    height: 100px;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    width: 100px;
   }
 
   .cards-list .heading2, .cards-list .heading3 {
