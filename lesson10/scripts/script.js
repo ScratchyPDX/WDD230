@@ -47,6 +47,10 @@ function degToCompass(num) {
   return arrayOfDirectionCodes[(val % 16)];
 }
 
+function convertMillibarsToInchesOfMercury(num) {
+  return num * 0.030;
+}
+
 function displayResults(weatherData) {
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
@@ -58,7 +62,7 @@ function displayResults(weatherData) {
   captionDesc.textContent = capitalize(desc);
   cityName.textContent = weatherData.name;
   humidity.textContent = weatherData.main.humidity;
-  pressure.textContent = (weatherData.main.pressure * 0.030).toFixed(1);
+  pressure.textContent = convertMillibarsToInchesOfMercury(weatherData.main.pressure).toFixed(1);
   windSpeed.textContent = weatherData.wind.speed.toFixed(0);
   windChill.textContent = weatherData.main.feels_like.toFixed(0);
   windDirection.textContent = degToCompass(weatherData.wind.deg)
