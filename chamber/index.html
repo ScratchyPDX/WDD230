@@ -53,10 +53,16 @@
     </div>
     <div class="article" id="weather">
       <div class="heading1">Weather</div>
-      <img src="images/partly-sunny.webp" alt="partly sunny sky">
-      <div class="heading2">Temp: <span id="temperature">47</span>&deg;F</div>
-      <div class="heading2">Wind Speed: <span id="wind_speed">14</span>mph</div>
-      <div class="heading2">Wind Chill: <span id="wind_chill"></span></div>
+      <figure>
+        <figcaption></figcaption>
+        <img src="" alt="" id="weather-icon">
+      </figure>
+      <div class="heading2">Temp: <span id="current-temp"></span>&deg;F</div>
+      <div class="heading2">Wind: <span id="wind-speed"></span> Mph <span id="wind-direction"></span></div>
+      <div class="heading2">Wind Chill: <span id="wind-chill"></span>&deg;F</div>
+      <div class="heading2">Barometric Pressure: <span id="pressure"></span> inHg</div>
+      <div class="heading2">Humidity: <span id="humidity"></span>%</div>
+      <div class="heading4"><em>Weather data provided by the OpenWeather API</em></div>
     </div>
     <div class="article" id="news">
       <div class="heading1">News Release</div>
@@ -104,6 +110,6 @@
     </div>
   </footer>
   <script src="scripts/script.js"></script>
-  <script src="scripts/windchill.js"></script>
+  <script src="scripts/weather-api.js"></script>
 </body>
 </html>
