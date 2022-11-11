@@ -5,8 +5,12 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const cityName = document.querySelector('#city-name');
+const humidity = document.querySelector("#humidity");
+const pressure = document.querySelector("#pressure");
+const windSpeed = document.querySelector("#wind-speed");
+const windChill = document.querySelector("#wind-chill");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Portland&appid=4d9f17ef42374d8bec405fcc33edb96a&units=imperial"
+const url = "https://api.openweathermap.org/data/2.5/weather?zip=97060&appid=4d9f17ef42374d8bec405fcc33edb96a&units=imperial"
 
 async function apiFetch() {
   try {
@@ -42,6 +46,10 @@ function displayResults(weatherData) {
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = capitalize(desc);
   cityName.textContent = weatherData.name;
+  humidity.textContent = weatherData.main.humidity;
+  pressure.textContent = weatherData.main.pressure;
+  windSpeed.textContent = weatherData.wind.speed;
+  windChill.textContent = weatherData.main.feels_like.toFixed(0);
 }
 
 apiFetch();
