@@ -4,6 +4,7 @@ const APPID = "4d9f17ef42374d8bec405fcc33edb96a";
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+const cityName = document.querySelector('#city-name');
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Portland&appid=4d9f17ef42374d8bec405fcc33edb96a&units=imperial"
 
@@ -40,6 +41,7 @@ function displayResults(weatherData) {
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = capitalize(desc);
+  cityName.textContent = weatherData.name;
 }
 
 apiFetch();
