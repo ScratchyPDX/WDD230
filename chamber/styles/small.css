@@ -283,7 +283,6 @@ form label.top input, form label.top textarea, form label.top select {
   padding: .75rem;
   color: #555;
   width: 100%;
-  max-width: 20rem;
   background-color: ghostwhite;
 }
 form .member-level {
@@ -372,4 +371,25 @@ border-left: 6px solid green;
 
 .cards-list section img {
   display: none;
+}
+
+.contact {
+  display: block;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#address-info {
+  margin-top: 0.5rem;
+}
+
+#address-info table {
+  margin: 0.5rem;
+}
+
+#address-info table .heading4 {
+  text-align: right;
 }
