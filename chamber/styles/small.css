@@ -380,10 +380,12 @@ border-left: 6px solid green;
 .map iframe {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 #address-info {
   margin-top: 0.5rem;
+  border-radius: 10px;
 }
 
 #address-info table {

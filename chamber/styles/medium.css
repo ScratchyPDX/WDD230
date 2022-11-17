@@ -86,7 +86,7 @@
   .location-info {
     margin: 2rem;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: .75fr 1fr;
   }
 
   .contact .submit-button {
