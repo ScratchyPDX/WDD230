@@ -11,7 +11,8 @@
       "contact_name": "Jean Linn",
       "work_phone": "503-869-4902",
       "work_email": "artistreenw@gmail.com",
-      "website": ""
+      "website": "",
+      "member_status": "bronze"
     },
     {
       "logo": "images/directory/bandits-bar-and-grill.webp",
@@ -23,7 +24,8 @@
       "contact_name": "",
       "work_phone": "503-328-8120",
       "work_email": "yes_siree@outlook.com",
-      "website": "https://www.banditstroutdale.com/"
+      "website": "https://www.banditstroutdale.com/",
+      "member_status": "silver"
     },
     {
       "logo": "images/directory/us-army-corps-of-engineers.webp",
@@ -35,7 +37,8 @@
       "contact_name": "Lucille Ausman",
       "work_phone": "541-374-8820",
       "work_email": "Lucille.M.Ausman@usace.army.mil",
-      "website": "http://www.nwp.usace.army.mil/bonneville/"
+      "website": "http://www.nwp.usace.army.mil/bonneville/",
+      "member_status": "gold"
     },
     {
       "logo": "images/directory/cascade-locks.webp",
@@ -47,7 +50,8 @@
       "contact_name": "Annie VanDomelen",
       "work_phone": "541-374-8484",
       "work_email": "dam@email.com",
-      "website": "tourism@cascade-locks.or.us"
+      "website": "tourism@cascade-locks.or.us",
+      "member_status": "bronze"
     },
     {
       "logo": "images/directory/columbia-river-gallery.webp",
@@ -59,7 +63,8 @@
       "contact_name": "Donna Erwin",
       "work_phone": "503-491-8407",
       "work_email": "columbiarivergallery@yahoo.com",
-      "website": "http://www.columbiarivergallery.com"
+      "website": "http://www.columbiarivergallery.com",
+      "member_status": "silver"
     },
     {
       "logo": "images/directory/east-county-historical-society.webp",
@@ -71,7 +76,8 @@
       "contact_name": "Peggy",
       "work_phone": "503-261-8078",
       "work_email": "info@echohistory.org",
-      "website": "https://www.echohistory.org/"
+      "website": "https://www.echohistory.org/",
+      "member_status": "gold"
     },
     {
       "logo": "images/directory/gandy-legal-service.webp",
@@ -83,7 +89,8 @@
       "contact_name": "Rebecca Gandy",
       "work_phone": "503-753-4267",
       "work_email": "rebgandy@gmail.com",
-      "website": "http://www.gandylegalservices.com"
+      "website": "http://www.gandylegalservices.com",
+      "member_status": "bronze"
     },
     {
       "logo": "images/directory/gresham-memorial-chapel.webp",
@@ -95,7 +102,8 @@
       "contact_name": "John Gerbish",
       "work_phone": "503-618-8176",
       "work_email": "jcg-gfc@frontier.com",
-      "website": "www.greshamfuneral.com"
+      "website": "www.greshamfuneral.com",
+      "member_status": "silver"
     },
     {
       "logo": "images/directory/hbi-logo.webp",
@@ -107,7 +115,8 @@
       "contact_name": "Jane and Bob Regan",
       "work_phone": "650-346-6650",
       "work_email": "janerhbi@gmail.com",
-      "website": "http://www.hbigeneralcontractor.com/"
+      "website": "http://www.hbigeneralcontractor.com/",
+      "member_status": "gold"
     },
     {
       "logo": "images/directory/kiwanis-logo.webp",
@@ -119,7 +128,8 @@
       "contact_name": "John Leamy",
       "work_phone": "503-704-7653",
       "work_email": "jleamy3@comcast.net",
-      "website": "http://www.columbiagorgekiwanis.org/"
+      "website": "http://www.columbiagorgekiwanis.org/",
+      "member_status": "bronze"
     },
     {
       "logo": "images/directory/mla-logo.webp",
@@ -131,7 +141,8 @@
       "contact_name": "JoAnn Lindenthal",
       "work_phone": "503-405-7868 x232",
       "work_email": "jlindenthal@mla.k12.or.us",
-      "website": "http://www.mla.k12.or.us"
+      "website": "http://www.mla.k12.or.us",
+      "member_status": "silver"
     },
     {
       "logo": "images/directory/multnomah-falls-lodge.webp",
@@ -143,7 +154,8 @@
       "contact_name": "Jill Willis",
       "work_phone": "503-695-2376",
       "work_email": "jill@multnomahfallslodge.com",
-      "website": "http://www.multnomahfallslodge.com"
+      "website": "http://www.multnomahfallslodge.com",
+      "member_status": "gold"
     },
     {
       "logo": "images/directory/spruce-gifts-provisions.webp",
@@ -155,7 +167,8 @@
       "contact_name": "Angel Williams",
       "work_phone": "541-374-8447",
       "work_email": "sprucegiftsandprovisions@myowf.org",
-      "website": "http://myowf.org/"
+      "website": "http://myowf.org/",
+      "member_status": "bronze"
     },
     {
       "logo": "images/directory/troutdale-house.webp",
@@ -167,7 +180,8 @@
       "contact_name": "Laura Burlus",
       "work_phone": "503-481-9449",
       "work_email": "thetroutdalehouse@gmail.com",
-      "website": "http://www.thetroutdalehouse.com"
+      "website": "http://www.thetroutdalehouse.com",
+      "member_status": "silver"
     },
     {
       "logo": "images/directory/waterfall-trolley.gif",
@@ -179,7 +193,8 @@
       "contact_name": null,
       "work_phone": "503-241-7474",
       "work_email": "sales@waterfalltrolley.com",
-      "website": "https://www.graylineofportland.com/"
+      "website": "https://www.graylineofportland.com/",
+      "member_status": "gold"
     }
   ]
 }

@@ -395,3 +395,12 @@ border-left: 6px solid green;
 #address-info table .heading4 {
   text-align: right;
 }
+
+.spotlight .article .cards-grid img {
+  width: 100px;
+  height: auto;
+}
+
+.spotlight .article .cards-grid section {
+  border: none;
+}

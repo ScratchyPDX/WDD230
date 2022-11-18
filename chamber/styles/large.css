@@ -82,4 +82,9 @@
   .cards-list .heading4, .cards-list .email, .cards-list .phone {
     font-size: 1rem;
   }
+
+  .spotlight .article .cards-grid {
+    display: block;
+    width: 100%;
+  }
 }

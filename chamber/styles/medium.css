@@ -92,4 +92,8 @@
   .contact .submit-button {
     margin: 0 0 2rem 5%;
   }
+
+  .spotlight .article .cards-grid {
+    display: block;
+  }
 }
