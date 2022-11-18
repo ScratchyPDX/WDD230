@@ -6,7 +6,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    // console.table(jsonObject);  // temporary checking for valid response and data parsing
     const members = jsonObject["members"];
     members.forEach(displayMembers);
   });
@@ -17,6 +16,9 @@ function displayMembers(member) {
   let businessName = document.createElement('h2');
   businessName.className = "heading2"
   let logo = document.createElement('img');
+  let logo_anchor = document.createElement('a');
+  logo_anchor.href = member.website;
+  logo_anchor.target = "_blank";
   let workPhone = document.createElement('h3');
   workPhone.className = "phone"
   let emailAddress = document.createElement('h3');
@@ -31,9 +33,10 @@ function displayMembers(member) {
   logo.setAttribute('src', member.logo);
   logo.setAttribute('alt', `Logo of ${member.business_name}`);
   logo.setAttribute('loading', 'lazy');
+  logo_anchor.appendChild(logo);
+  member.website ? card.appendChild(logo_anchor) : card.appendChild(logo);
 
   // Add/append the section(card) with the h2 element
-  card.appendChild(logo);
   card.appendChild(businessName);
   card.appendChild(workPhone);
   card.appendChild(emailAddress);
