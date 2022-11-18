@@ -18,7 +18,7 @@ fetch(requestURL)
     displayMember(filtered_members[index3], 'div.card3');
   });
 
-function displayMember(member, 0) {
+function displayMember(member, card_location) {
   // Create elements to add to the document
   let card = document.createElement('section');
   let businessName = document.createElement('h2');
