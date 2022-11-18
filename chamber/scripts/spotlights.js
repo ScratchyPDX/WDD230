@@ -5,9 +5,6 @@ const card3 = document.querySelector('.card3');
 const index1 = randomIntFromInterval(0, 3).toFixed(0);
 const index2 = randomIntFromInterval(4, 6).toFixed(0);
 const index3 = randomIntFromInterval(7, 9).toFixed(0);
-console.log("index1: " + index1);
-console.log("index2: " + index2);
-console.log("index3: " + index3);
 
 fetch(requestURL) 
   .then(function (response) {
@@ -21,18 +18,17 @@ fetch(requestURL)
     displayMember(filtered_members[index3], 'div.card3');
   });
 
-
-
 function displayMember(member, card_location) {
   // Create elements to add to the document
-  console.log("member: " + member);
-  console.log("card_location: " + card_location);
   let card = document.createElement('section');
   let businessName = document.createElement('h2');
   businessName.className = "heading2"
   let logo = document.createElement('img');
+  let logo_anchor = document.createElement('a');
+  logo_anchor.href = member.website;
+  logo_anchor.target = "_blank";
   let workPhone = document.createElement('h3');
-  workPhone.className = "phone"
+  workPhone.className = "phone";
   
   // Change the textContent property of the h2 element to contain the prophet's full name
   businessName.textContent = `${member.business_name}`;
@@ -42,9 +38,9 @@ function displayMember(member, card_location) {
   logo.setAttribute('src', member.logo);
   logo.setAttribute('alt', `Logo of ${member.business_name}`);
   logo.setAttribute('loading', 'lazy');
-
+  logo_anchor.appendChild(logo);
   // Add/append the section(card) with the h2 element
-  card.appendChild(logo);
+  member.website ? card.appendChild(logo_anchor) : card.appendChild(logo);
   card.appendChild(businessName);
   card.appendChild(workPhone);
 
