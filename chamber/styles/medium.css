@@ -60,6 +60,7 @@
     left: -15em;
     transform: scale(1.8);
     transition: width 2s, height 2s, transform 2s;
+    z-index: 1;
   }
 
   form input.submit-button { 
