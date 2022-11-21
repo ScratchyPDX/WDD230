@@ -91,3 +91,6 @@ else {
   last_visited_element.textContent = "This is your first visit to our site. Welcome!"
 }
 localStorage.setItem("last-visit-date", todays_date);
+
+const transactionDate = document.querySelector("#transaction-date")
+transactionDate.value = todays_date.toString();
