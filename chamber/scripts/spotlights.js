@@ -11,7 +11,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
     const filtered_members = jsonObject["members"].filter(member => member.member_status === "silver" || member.member_status === "gold" );
     displayMember(filtered_members[index1], 'div.card1');
     displayMember(filtered_members[index2], 'div.card2');
