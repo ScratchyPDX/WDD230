@@ -78,7 +78,14 @@ h2 {
   width: 70px;
 }
 .mapLink {
+  color: #000;
   text-decoration: none;
+  /* background-color: white; */
+}
+.mapLink:visited {
+  color: #000;
+  text-decoration: none;
+  /* background-color: white; */
 }
 nav {
   background-color: var(--secondary-color);
