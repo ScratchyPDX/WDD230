@@ -92,5 +92,4 @@ else {
 }
 localStorage.setItem("last-visit-date", todays_date);
 
-const transactionDate = document.querySelector("#transaction-date")
-transactionDate.value = todays_date.toString();
+document.getElementById("transaction-date").value = todays_date;
