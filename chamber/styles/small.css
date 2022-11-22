@@ -271,6 +271,7 @@ form fieldset {
   padding: .5rem 2%;
 }
 form legend {
+  font-size: 1rem;
   color: blue;
   margin: 0 1rem;
   padding: 0 .5rem;
@@ -278,7 +279,7 @@ form legend {
 form label.top, form div {
   display: block;
   padding-top: 1rem;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 form label.top input, form label.top textarea, form label.top select {
   display: block;
