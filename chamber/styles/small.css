@@ -157,7 +157,7 @@ main li {
   font-size: 0.9rem;
 }
 main p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 .social-media-icon {
   width: 40px;
@@ -271,7 +271,7 @@ form fieldset {
   padding: .5rem 2%;
 }
 form legend {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: blue;
   margin: 0 1rem;
   padding: 0 .5rem;
@@ -279,7 +279,7 @@ form legend {
 form label.top, form div {
   display: block;
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 form label.top input, form label.top textarea, form label.top select {
   display: block;
@@ -295,11 +295,11 @@ form .member-level {
   padding-bottom:  .75rem;
 }
 form .member-level label {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 form .member-level p {
   padding: .2rem;
-  margin-left: .9rem;
+  margin-left: 1rem;
 }
 form input.submit-button {
   border: none;
