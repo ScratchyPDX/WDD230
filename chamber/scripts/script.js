@@ -92,4 +92,7 @@ else {
 }
 localStorage.setItem("last-visit-date", todays_date);
 
-document.getElementById("transaction-date").value = todays_date;
+let transactionDate = document.getElementById("transaction-date");
+if(transactionDate !== null){
+  transactionDate.value = todays_date;
+}
