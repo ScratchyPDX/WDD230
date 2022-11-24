@@ -91,7 +91,6 @@ h1 {
 	font-size: 1.1rem;
 }
 h2 {
-	color: #FFF;
 	margin-bottom: 0.5em;
 }
 
@@ -130,7 +129,6 @@ main article {
 	margin: 1rem;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 1rem;
-	background-color: var(--accent1-color);
 }
 
 main ul {
@@ -144,7 +142,6 @@ main li {
 
 main p {
 	font-size: 0.9rem;
-	color: #fff;
 }
 
 th {
