@@ -33,6 +33,7 @@
 .active a {
 	color: #FFF;
 }
+
 body {
 	font-size: 16px;
 	font-family: "Open Sans", Helvetica, sans-serif;
@@ -59,9 +60,9 @@ body {
   height: 3em;
 }
 
-.grid-display {
+/* .grid-display {
 	display: grid;
-}
+} */
 
 footer p {
 	padding: .5rem;
