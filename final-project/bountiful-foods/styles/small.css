@@ -53,6 +53,12 @@ footer p {
 #hamburger-button span:nth-child(2) {
   display: none;
 }
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem
+}
 header,
 footer {
 	background-color: var(--primary-color);
