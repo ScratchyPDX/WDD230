@@ -54,16 +54,16 @@ footer p {
   display: none;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 h2 {
-  font-size: 1.5rem
+  font-size: .75rem
 }
 header,
 footer {
 	background-color: var(--primary-color);
 	align-items: center;
-	padding: .75rem;
+	/* padding: .75rem; */
 	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 header,
@@ -120,16 +120,20 @@ nav a:hover {
   text-shadow: 5px 5px 10px black;
 }
 
+#hero-container {
+  position: relative;
+}
+
 #hero-container picture img {
   width: 100%;
 }
 
 .hero-container-center {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    /* right: -10%; */
-    transform: translate(-50%, -50%);
-    width: 60%;
+    top: 10%;
     text-align: center;
+}
+p {
+  font-size: .75rem;
+  padding: 2px;
 }
