@@ -120,11 +120,11 @@ nav a:hover {
   text-shadow: 5px 5px 10px black;
 }
 
-#hero-container {
+.hero-container {
   position: relative;
 }
 
-#hero-container picture img {
+.hero-container picture img {
   width: 100%;
 }
 
@@ -133,7 +133,7 @@ nav a:hover {
     top: 10%;
     text-align: center;
 }
-p {
+.hero-container-center p {
   font-size: .75rem;
   padding: 2px;
 }
