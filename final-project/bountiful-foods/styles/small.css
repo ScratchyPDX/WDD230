@@ -1,14 +1,14 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-weight: normal;
 }
 :root {
-	--primary-color: #fff   ;
-	--secondary-color: #6E8A52 ;
-	--accent1-color: #81231F;
-	--accent2-color: #36454F;
+  --primary-color: #fff;
+  --secondary-color: #6e8a52;
+  --accent1-color: #81231f;
+  --accent2-color: #36454f;
 }
 .primary {
   background-color: var(--primary-color);
@@ -19,22 +19,26 @@
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+.accent2 {
   background-color: var(--accent2-color);
 }
 
 .active a {
-	color: #000;
+  color: #000;
   font-weight: 800;
   font-style: italic;
 }
 body {
-	font-size: 16px;
-	font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .box-shadow {
-  box-shadow: 10px 10px 10px 2px grey;
+  box-shadow: 10px 10px 10px 5px grey;
 }
 
 .designer-info h2 {
@@ -42,11 +46,12 @@ body {
 }
 footer {
   display: block;
+  padding: 0.5rem;
 }
 footer p {
-	padding: .5rem;
-	flex-direction: column;
-	align-items: center;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: center;
 }
 #hamburger-button span:nth-child(1) {
   display: block;
@@ -58,21 +63,21 @@ h1 {
   font-size: 1rem;
 }
 h2 {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 header,
 footer {
-	background-color: var(--primary-color);
-	align-items: center;
-	/* padding: .75rem; */
-	border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: var(--primary-color);
+  align-items: center;
+  /* padding: .75rem; */
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 header,
 main,
 footer {
-	max-width: 1600px;
-	margin: 0 auto;
-} 
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
 nav {
   color: #fff;
@@ -107,7 +112,7 @@ nav a:hover {
   font-weight: 800;
 }
 section {
-  padding: .5rem;
+  /* padding: .5rem; */
 }
 .social-media a {
   margin: 0 auto;
@@ -132,49 +137,43 @@ section {
 .hero-container picture img {
   width: 100%;
 }
-
 .hero-container-center {
-    position: absolute;
-    top: 10%;
-    text-align: center;
+  position: absolute;
+  top: 10%;
+  text-align: center;
+}
+.hero-container-center h1 {
+  font-size: 1.75rem;
 }
 .hero-container-center p {
-  font-size: .75rem;
-  padding: 2px;
+  font-size: 1.25rem;
 }
-
 .oceanside {
   display: grid;
-
 }
 .oceanside h1 {
   text-align: center;
 }
-
 .oceanside picture {
   margin: 5px auto;
 }
-
 #weather-container {
-  /* border: 2px solid black; */
   display: grid;
 }
-
 #weather-current {
   text-align: center;
+}
+#weather-3day {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 5px;
+}
+.standard-border {
   border: 2px solid #000;
 }
 
-#weather-3day {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: left;
-    border: 2px solid #000;
-    margin-top: 5px;
-    padding: 2px;
-}
-
-.forecast-day {
-  padding: 10px;
+.standard-padding {
+  padding: 0.5rem;
 }
