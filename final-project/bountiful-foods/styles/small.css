@@ -61,6 +61,7 @@ footer p {
 }
 h1 {
   font-size: 1rem;
+  font-family: Raleway, Helvetica, sans-serif;
 }
 h2 {
   font-size: 0.75rem;
@@ -157,6 +158,17 @@ section {
 .oceanside picture {
   margin: 5px auto;
 }
+
+.leftside {
+  display: grid;
+}
+.leftside h1 {
+  text-align: center;
+}
+.leftside picture {
+  margin: 5px auto;
+}
+
 #weather-container {
   display: grid;
 }
@@ -176,4 +188,9 @@ section {
 
 .standard-padding {
   padding: 0.5rem;
+}
+
+.order-drink {
+  text-align: center;
+  font-family: Raleway, Helvetica, sans-serif;
 }
