@@ -149,23 +149,23 @@ section {
 .hero-container-center p {
   font-size: 1.25rem;
 }
-.oceanside {
+.right-side {
   display: grid;
 }
-.oceanside h1 {
+.right-side h1 {
   text-align: center;
 }
-.oceanside picture {
+.right-side picture {
   margin: 5px auto;
 }
 
-.leftside {
+.left-side {
   display: grid;
 }
-.leftside h1 {
+.left-side h1 {
   text-align: center;
 }
-.leftside picture {
+.left-side picture {
   margin: 5px auto;
 }
 
