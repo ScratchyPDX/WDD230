@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  font-weight: normal;
 }
 :root {
 	--primary-color: #fff   ;
@@ -57,7 +58,7 @@ h1 {
   font-size: 1rem;
 }
 h2 {
-  font-size: .75rem
+  font-size: .75rem;
 }
 header,
 footer {
@@ -152,4 +153,28 @@ section {
 
 .oceanside picture {
   margin: 5px auto;
+}
+
+#weather-container {
+  /* border: 2px solid black; */
+  display: grid;
+}
+
+#weather-current {
+  text-align: center;
+  border: 2px solid #000;
+}
+
+#weather-3day {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    border: 2px solid #000;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.forecast-day {
+  padding: 10px;
 }

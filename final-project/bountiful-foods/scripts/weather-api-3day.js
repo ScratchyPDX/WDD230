@@ -1,0 +1,44 @@
+const weather_3day = document.querySelector("#weather-3day");
+const endpoint = "https://api.openweathermap.org/data/2.5/onecall?lat=33.1615599&lon=-117.3425162&exclude=current,hourly,minutely,alerts&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
+
+async function apiFetchForecast() {
+    try {
+        const response = await fetch(endpoint);
+        if(response.ok) {
+            const data = await response.json()
+            console.log(data);
+            displayForecastResults(data)
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayForecastResults(forecast_data) {
+    forecast_data.daily.slice(0, 3).forEach(forecast_day => {
+        let week_day = new Date(forecast_day.dt * 1000).toLocaleDateString("en", {weekday: "long"});
+        const weather_icon = forecast_day.weather[0].icon;
+        const icon_src = `https://openweathermap.org/img/w/${weather_icon}.png`;
+        const temp = forecast_day.temp.day.toFixed(0);
+
+        // create elements
+        let forecast_day_div = document.createElement('div');
+        forecast_day_div.className = "forecast-day";
+        let day_name_para = document.createElement('p');
+        day_name_para.textContent = week_day;
+        let icon_img = document.createElement('img');
+        icon_img.src = icon_src;
+        icon_img.alt = "weather icon";
+        let temp_div = document.createElement('div');
+        temp_div.className = "forecast-day-temp";
+        temp_div.textContent = `${temp}°F`;
+        forecast_day_div.appendChild(day_name_para);
+        forecast_day_div.appendChild(icon_img);
+        forecast_day_div.appendChild(temp_div);
+        weather_3day.appendChild(forecast_day_div);
+    });
+}
+
+apiFetchForecast()
