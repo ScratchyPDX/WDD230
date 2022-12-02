@@ -6,7 +6,6 @@ async function apiFetchForecast() {
         const response = await fetch(endpoint);
         if(response.ok) {
             const data = await response.json()
-            console.log(data);
             displayForecastResults(data)
         } else {
             throw Error(await response.text());
