@@ -1,5 +1,5 @@
 const weather_3day = document.querySelector("#weather-3day");
-const endpoint = "https://api.openweathermap.org/data/2.5/onecall?lat=33.1615599&lon=-117.3425162&exclude=current,hourly,minutely,alerts&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
+const endpoint = "https://api.openweathermap.org/data/2.5/forecast?zip=92008&appid=4d9f17ef42374d8bec405fcc33edb96a&units=imperial";
 
 async function apiFetchForecast() {
     try {
@@ -16,11 +16,12 @@ async function apiFetchForecast() {
 }
 
 function displayForecastResults(forecast_data) {
-    forecast_data.daily.slice(0, 3).forEach(forecast_day => {
+    let filtered_forecast = forecast_data.list.filter(forecast => forecast.dt_txt.includes(" 12:00:00"));
+    filtered_forecast.slice(0, 3).forEach(forecast_day => {
         let week_day = new Date(forecast_day.dt * 1000).toLocaleDateString("en", {weekday: "long"});
         const weather_icon = forecast_day.weather[0].icon;
         const icon_src = `https://openweathermap.org/img/w/${weather_icon}.png`;
-        const temp = forecast_day.temp.day.toFixed(0);
+        const temp = forecast_day.main.temp.toFixed(0);
 
         // create elements
         let forecast_day_div = document.createElement('div');
