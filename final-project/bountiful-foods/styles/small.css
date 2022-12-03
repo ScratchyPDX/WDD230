@@ -194,3 +194,9 @@ section {
   text-align: center;
   font-family: Raleway, Helvetica, sans-serif;
 }
+
+.forecast-day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

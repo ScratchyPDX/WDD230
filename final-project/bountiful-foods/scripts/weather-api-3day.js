@@ -27,6 +27,7 @@ function displayForecastResults(forecast_data) {
         let forecast_day_div = document.createElement('div');
         forecast_day_div.className = "forecast-day";
         let day_name_para = document.createElement('p');
+        day_name_para.className = "bold";
         day_name_para.textContent = week_day;
         let icon_img = document.createElement('img');
         icon_img.src = icon_src;
