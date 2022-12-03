@@ -47,9 +47,6 @@
     font-size: 2rem;
   }
 
-  .hero-container-center h1 {
-    font-size: 3rem;
-  }
   .right-side {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr auto;

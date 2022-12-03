@@ -204,3 +204,20 @@ section {
 #drinks-purchased, #drink-emphasis {
   font-size: 1.5rem;
 }
+
+.title {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.title h1 {
+  font-size: 3rem;
+}
+
+.title .logo {
+  padding: 0.3em;
+  width: 150px;
+}
