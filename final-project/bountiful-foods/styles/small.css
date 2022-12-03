@@ -140,14 +140,14 @@ section {
 }
 .hero-container-center {
   position: absolute;
-  top: 10%;
+  top: 6%;
   text-align: center;
 }
 .hero-container-center h1 {
   font-size: 1.75rem;
 }
 .hero-container-center p {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
 }
 .right-side {
   display: grid;

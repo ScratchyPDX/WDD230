@@ -37,14 +37,14 @@
 
   .hero-container-center {
     position: absolute;
-    top: 20%;
+    top: 15%;
     text-align: center;
     margin-left: 5%;
     width: 90%;
   }
 
   .hero-container-center p {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   .right-side {
