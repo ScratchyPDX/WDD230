@@ -190,7 +190,7 @@ section {
   padding: 0.5rem;
 }
 
-.order-drink {
+.order-drink, .purchased-drinks {
   text-align: center;
   font-family: Raleway, Helvetica, sans-serif;
 }
@@ -199,4 +199,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#drinks-purchased, #drink-emphasis {
+  font-size: 1.5rem;
 }

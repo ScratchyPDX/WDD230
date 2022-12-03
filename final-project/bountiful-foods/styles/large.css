@@ -52,7 +52,7 @@
   }
   .right-side {
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 4fr auto;
   }
   .right-side h1 {
     grid-row: 1/2;
@@ -91,9 +91,13 @@
     grid-row: 2/3;
     grid-column: 1/2;
   }
-
-  .order-drink {
+  .purchased-drinks {
     grid-row: 3/4;
+    grid-column: 1/3;
+
+  }
+  .order-drink {
+    grid-row: 4/5;
     grid-column: 1/3;
   }
 }
