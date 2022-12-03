@@ -188,6 +188,7 @@ section {
 
 .standard-padding {
   padding: 0.5rem;
+  margin: 5px auto;
 }
 
 .order-drink, .purchased-drinks {
