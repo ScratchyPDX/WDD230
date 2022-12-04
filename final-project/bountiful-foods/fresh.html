@@ -38,19 +38,19 @@
           <fieldset id="order-confirmation">
             <legend>Order Confirmation</legend>
             <label class="top">First Name</label>
-            <p id="fname">David</p>
+            <p id="conf-fname">David</p>
             <label class="top">Email</label>
-            <p name="email">no@spam.com</p>
+            <p id="conf-email">no@spam.com</p>
             <label class="top">Cell Phone #</label>
-            <p name="phone">503-555-1212</p>
+            <p id="conf-phone">503-555-1212</p>
             <label class="top">Fruit Choice #1</label>
-            <p name="fruit-1">Banana</p>
+            <p id="conf-fruit1">Banana</p>
             <label class="top">Fruit Choice #2</label>
-            <p name="fruit-2">Black Berry</p>
+            <p id="conf-fruit2">Black Berry</p>
             <label class="top">Fruit Choice #3</label>
-            <p name="fruit-3">Strawberry</p>
+            <p id="conf-fruit3">Strawberry</p>
             <label class="top">Special Instructions</label>
-            <p name="special-instructions">Some instructions are included here as an example</p>
+            <p id="special-instructions">Some instructions are included here as an example</p>
           </fieldset>
           <fieldset id="nutrition-facts">
             <legend>Nutrition Facts</legend>
@@ -60,6 +60,8 @@
             <p id="protien">15%</p>
             <label class="top">Sugar</label>
             <p id="sugar">3mg</p>
+            <label class="top">Calories</label>
+            <p id="calories">1234</p>
             <label class="top">Fat</label>
             <p id="fat">12mg</p>
           </fieldset>
@@ -77,42 +79,15 @@
           <fieldset>
             <legend>Please Select Fruit to Include in Drink</legend>
             <label class="top">Fruit Choice #1
-              <select id="fruit1" name="fruit1" required>
-                  <option>Please Select</option>
-                  <option value="software">Software Development</option>
-                  <option value="creative">Creative Professional</option>
-                  <option value="info">Information Technology</option>
-                  <option value="data">Data Professional</option>
-                  <option value="construction">Construction</option>
-                  <option value="manufactoring">Manufactoring</option>
-                  <option value="business">Business Professional</option>
-                  <option value="security">Cyber Security</option>
-              </select>
+              <select id="fruit1" name="fruit1">
+\              </select>
             </label>
             <label class="top">Fruit Choice #2
-              <select name="fruit2">
-                  <option>Please Select</option>
-                  <option value="software">Software Development</option>
-                  <option value="creative">Creative Professional</option>
-                  <option value="info">Information Technology</option>
-                  <option value="data">Data Professional</option>
-                  <option value="construction">Construction</option>
-                  <option value="manufactoring">Manufactoring</option>
-                  <option value="business">Business Professional</option>
-                  <option value="security">Cyber Security</option>
+              <select id="fruit2" name="fruit2">
               </select>
             </label>
             <label class="top">Fruit Choice #3
-              <select name="fruit3" required>
-                  <option>Please Select</option>
-                  <option value="software">Software Development</option>
-                  <option value="creative">Creative Professional</option>
-                  <option value="info">Information Technology</option>
-                  <option value="data">Data Professional</option>
-                  <option value="construction">Construction</option>
-                  <option value="manufactoring">Manufactoring</option>
-                  <option value="business">Business Professional</option>
-                  <option value="security">Cyber Security</option>
+              <select id="fruit3" name="fruit3">
               </select>
             </label>
             <label class="top">Special Instructions<textarea name="special-instructions" rows="5" cols="40"></textarea></label>
@@ -144,6 +119,7 @@
     </div>
   </footer>
   <script src="scripts/main.js"></script>
+  <script src="scripts/drink-info.js"></script>
   <script src="scripts/modal-dialog.js"></script>
 </body>
 </html>
