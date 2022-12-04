@@ -40,7 +40,9 @@ body {
 .box-shadow {
   box-shadow: 10px 10px 10px 5px grey;
 }
-
+.center-text {
+  text-align: center;
+}
 .designer-info h2 {
   text-align: right;
 }
