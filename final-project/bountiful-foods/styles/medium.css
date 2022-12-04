@@ -25,4 +25,25 @@
 	.forecast-day {
 		margin: 0 auto;
 	}
+
+	.form-popup {
+		top: 3rem;
+		left: 8%;
+	}
+	.form-container {
+		max-width: 50rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.form-container .btn {
+		margin-left: 50%;
+	}
+
+	.form-container #order-confirmation {
+		grid-column: 1/2;
+	}
+	.form-container #nutrition-facts {
+		grid-column: 2/3;
+	}
 }
