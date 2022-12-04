@@ -33,7 +33,7 @@
   </header>
   <main class="form-main">
     <section id="form-section" class="standard-border standard-padding box-shadow">
-        <div class="form" id="form-parent">
+        <form class="form" id="form-parent" onsubmit="openForm();return false;">
           <fieldset>
             <legend>Order a Specialty Drink</legend>
             <label class="top">First Name<input type="text" name="fname" required></label>
@@ -83,8 +83,8 @@
             </label>
             <label class="top">Special Instructions<textarea name="special-instructions" rows="5" cols="40"></textarea></label>
           </fieldset>
-          <button onclick="openForm()" id="myBtn" class="submit-button top">Place Order</button>
-        </div>
+          <button id="myBtn" class="submit-button top">Place Order</button>
+        </form>
       <!-- <div class="modal-dialog"> -->
         <div class="form-popup" id="myForm">
           <form action="/action_page.php" class="form-container standard-border">
