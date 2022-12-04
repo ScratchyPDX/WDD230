@@ -12,5 +12,6 @@ function openForm() {
 }
 
 function closeForm() {
+  location.reload();;
   document.getElementById("myForm").style.display = "none";
 }
