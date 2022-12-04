@@ -292,15 +292,13 @@ section {
   right: 28px;
   width: 280px;
 } */
-#form-section {
-  position: relative;
-}
+
 /* The popup form - hidden by default */
 .form-popup {
   display: none;
-  position: absolute;
-  bottom: 10%;
-  left: 10%;
+  position: relative;
+  top: 17rem;
+  left: 5%;
   z-index: 1;
 }
 
@@ -309,6 +307,7 @@ section {
   max-width: 90%;
   padding: 10px;
   background-color: white;
+  border-radius: 10px;
 }
 
 /* Full-width input fields */
@@ -340,7 +339,9 @@ section {
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-  background-color: red;
+  background-color:  var(--secondary-color);
+  border-radius: 10px;
+  font-size: 1.4rem;
 }
 
 /* Add some hover effects to buttons */

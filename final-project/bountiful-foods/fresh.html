@@ -31,9 +31,36 @@
       </ul>
     </nav>
   </header>
-  <main class="form-main">
-    <section id="form-section" class="standard-border standard-padding box-shadow">
-        <form class="form" id="form-parent" onsubmit="openForm();return false;">
+  <main>
+    <section class="standard-border standard-padding box-shadow">
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container standard-border">
+          <h1>Login</h1>
+        <table>
+          <tbody>
+            <tr class="row">
+              <td class="heading4"><strong>Address:</strong></td>
+              <td >219 E. Historic Columbia River Highway, Troutdale, OR  97060</td>
+            </tr>
+            <tr class="row">
+              <td class="heading4"><strong>Phone:</strong></td>
+              <td>503-491-4000</td>
+            </tr>
+            <tr class="row">
+              <td class="heading4"><strong>Mailing Address:</strong></td>
+              <td>P.O. Box 245, Troutdale, OR 97060</td>
+            </tr>
+            <tr class="row">
+              <td class="heading4"><strong>Email:</strong></td>
+              <td>info@troutdalechamber.com</td>
+            </tr>
+          </tbody>
+        </table>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+      <div id="form-parent">
+        <form class="form" onsubmit="openForm();return false;">
           <fieldset>
             <legend>Order a Specialty Drink</legend>
             <label class="top">First Name<input type="text" name="fname" required></label>
@@ -85,34 +112,7 @@
           </fieldset>
           <button id="myBtn" class="submit-button top">Place Order</button>
         </form>
-      <!-- <div class="modal-dialog"> -->
-        <div class="form-popup" id="myForm">
-          <form action="/action_page.php" class="form-container standard-border">
-            <h1>Login</h1>
-          <table>
-            <tbody>
-              <tr class="row">
-                <td class="heading4"><strong>Address:</strong></td>
-                <td >219 E. Historic Columbia River Highway, Troutdale, OR  97060</td>
-              </tr>
-              <tr class="row">
-                <td class="heading4"><strong>Phone:</strong></td>
-                <td>503-491-4000</td>
-              </tr>
-              <tr class="row">
-                <td class="heading4"><strong>Mailing Address:</strong></td>
-                <td>P.O. Box 245, Troutdale, OR 97060</td>
-              </tr>
-              <tr class="row">
-                <td class="heading4"><strong>Email:</strong></td>
-                <td>info@troutdalechamber.com</td>
-              </tr>
-            </tbody>
-          </table>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-          </form>
-        </div>
-      <!-- </div> -->
+      </div>
     </section>
   </main>
   <footer>
