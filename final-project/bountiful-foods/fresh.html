@@ -31,11 +31,9 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="standard-border standard-padding box-shadow">
-      <div>
-        <!-- <form id="form1" onclick="openForm()" name="form1"> -->
-        <div class="form">
+  <main class="form-main">
+    <section id="form-section" class="standard-border standard-padding box-shadow">
+        <div class="form" id="form-parent">
           <fieldset>
             <legend>Order a Specialty Drink</legend>
             <label class="top">First Name<input type="text" name="fname" required></label>
@@ -86,25 +84,35 @@
             <label class="top">Special Instructions<textarea name="special-instructions" rows="5" cols="40"></textarea></label>
           </fieldset>
           <button onclick="openForm()" id="myBtn" class="submit-button top">Place Order</button>
-        <!-- </form> -->
         </div>
-      </div>
-    </section>
-    <section class="modal-dialog">
-      <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h1>Login</h1>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-      
-          <button type="submit" class="btn">Login</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-      </div>
+      <!-- <div class="modal-dialog"> -->
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container standard-border">
+            <h1>Login</h1>
+          <table>
+            <tbody>
+              <tr class="row">
+                <td class="heading4"><strong>Address:</strong></td>
+                <td >219 E. Historic Columbia River Highway, Troutdale, OR  97060</td>
+              </tr>
+              <tr class="row">
+                <td class="heading4"><strong>Phone:</strong></td>
+                <td>503-491-4000</td>
+              </tr>
+              <tr class="row">
+                <td class="heading4"><strong>Mailing Address:</strong></td>
+                <td>P.O. Box 245, Troutdale, OR 97060</td>
+              </tr>
+              <tr class="row">
+                <td class="heading4"><strong>Email:</strong></td>
+                <td>info@troutdalechamber.com</td>
+              </tr>
+            </tbody>
+          </table>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+      <!-- </div> -->
     </section>
   </main>
   <footer>
@@ -128,6 +136,7 @@
       <a href="https://www.instagram.com" target="_blank"><img class="social-media-icon" src="images/social-media/instagram-logo.webp" alt="instagram icon" ></a>
     </div>
   </footer>
+  <script src="scripts/main.js"></script>
   <script src="scripts/modal-dialog.js"></script>
 </body>
 </html>
