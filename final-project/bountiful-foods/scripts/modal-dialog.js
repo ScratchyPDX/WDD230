@@ -9,6 +9,7 @@ function openForm() {
 
   // open model dialog and display order summary
   document.getElementById("myForm").style.display = "block";
+  document.getElementById("submit-button").style.display = "none";
 }
 
 function closeForm() {
