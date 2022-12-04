@@ -34,29 +34,36 @@
   <main>
     <section class="standard-border standard-padding box-shadow">
       <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container standard-border">
-          <h1>Login</h1>
-        <table>
-          <tbody>
-            <tr class="row">
-              <td class="heading4"><strong>Address:</strong></td>
-              <td >219 E. Historic Columbia River Highway, Troutdale, OR  97060</td>
-            </tr>
-            <tr class="row">
-              <td class="heading4"><strong>Phone:</strong></td>
-              <td>503-491-4000</td>
-            </tr>
-            <tr class="row">
-              <td class="heading4"><strong>Mailing Address:</strong></td>
-              <td>P.O. Box 245, Troutdale, OR 97060</td>
-            </tr>
-            <tr class="row">
-              <td class="heading4"><strong>Email:</strong></td>
-              <td>info@troutdalechamber.com</td>
-            </tr>
-          </tbody>
-        </table>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        <form action="/action_page.php" class="form form-container standard-border">
+          <fieldset>
+            <legend>Drink Order Confirmation</legend>
+            <label class="top">First Name</label>
+            <p id="fname">David</p>
+            <label class="top">Email</label>
+            <p name="email">no@spam.com</p>
+            <label class="top">Cell Phone #</label>
+            <p name="phone">503-555-1212</p>
+            <label class="top">Fruit Choice #1</label>
+            <p name="fruit-1">Banana</p>
+            <label class="top">Fruit Choice #2</label>
+            <p name="fruit-2">Black Berry</p>
+            <label class="top">Fruit Choice #3</label>
+            <p name="fruit-3">Strawberry</p>
+            <label class="top">Special Instructions</label>
+            <p name="special-instructions">Some instructions are included here as an example</p>
+          </fieldset>
+          <fieldset>
+            <legend>Nutritional Facts</legend>
+            <label class="top">Carbs</label>
+            <p id="carbs">10%</p>
+            <label class="top">Protien</label>
+            <p id="protien">15%</p>
+            <label class="top">Sugar</label>
+            <p id="sugar">3mg</p>
+            <label class="top">Fat</label>
+            <p id="fat">12mg</p>
+          </fieldset>
+          <button type="button" class="btn close" onclick="closeForm()">Close</button>
         </form>
       </div>
       <div id="form-parent">
