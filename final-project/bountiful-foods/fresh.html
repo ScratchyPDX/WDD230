@@ -32,7 +32,80 @@
     </nav>
   </header>
   <main>
-    <h1>Fresh page content goes here</h1>
+    <section class="standard-border standard-padding box-shadow">
+      <div>
+        <!-- <form id="form1" onclick="openForm()" name="form1"> -->
+        <div class="form">
+          <fieldset>
+            <legend>Order a Specialty Drink</legend>
+            <label class="top">First Name<input type="text" name="fname" required></label>
+            <label class="top">Email<input type="email" name="email" required placeholder="name@email.com"></label>
+            <label class="top">Cell Phone #<input type="tel" name="phone" required></label>
+          </fieldset>
+          <fieldset>
+            <legend>Please Select Fruit to Include in Drink</legend>
+            <label class="top">Fruit Choice #1
+              <select id="fruit1" name="fruit1" required>
+                  <option>Please Select</option>
+                  <option value="software">Software Development</option>
+                  <option value="creative">Creative Professional</option>
+                  <option value="info">Information Technology</option>
+                  <option value="data">Data Professional</option>
+                  <option value="construction">Construction</option>
+                  <option value="manufactoring">Manufactoring</option>
+                  <option value="business">Business Professional</option>
+                  <option value="security">Cyber Security</option>
+              </select>
+            </label>
+            <label class="top">Fruit Choice #2
+              <select name="fruit2">
+                  <option>Please Select</option>
+                  <option value="software">Software Development</option>
+                  <option value="creative">Creative Professional</option>
+                  <option value="info">Information Technology</option>
+                  <option value="data">Data Professional</option>
+                  <option value="construction">Construction</option>
+                  <option value="manufactoring">Manufactoring</option>
+                  <option value="business">Business Professional</option>
+                  <option value="security">Cyber Security</option>
+              </select>
+            </label>
+            <label class="top">Fruit Choice #3
+              <select name="fruit3" required>
+                  <option>Please Select</option>
+                  <option value="software">Software Development</option>
+                  <option value="creative">Creative Professional</option>
+                  <option value="info">Information Technology</option>
+                  <option value="data">Data Professional</option>
+                  <option value="construction">Construction</option>
+                  <option value="manufactoring">Manufactoring</option>
+                  <option value="business">Business Professional</option>
+                  <option value="security">Cyber Security</option>
+              </select>
+            </label>
+            <label class="top">Special Instructions<textarea name="special-instructions" rows="5" cols="40"></textarea></label>
+          </fieldset>
+          <button onclick="openForm()" id="myBtn" class="submit-button top">Place Order</button>
+        <!-- </form> -->
+        </div>
+      </div>
+    </section>
+    <section class="modal-dialog">
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+    </section>
   </main>
   <footer>
     <section class="contact-info secondary">
@@ -55,6 +128,6 @@
       <a href="https://www.instagram.com" target="_blank"><img class="social-media-icon" src="images/social-media/instagram-logo.webp" alt="instagram icon" ></a>
     </div>
   </footer>
-  <script src="scripts/main.js"></script>
+  <script src="scripts/modal-dialog.js"></script>
 </body>
 </html>
