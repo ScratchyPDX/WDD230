@@ -312,3 +312,7 @@ section {
   border-radius: 10px;
   font-size: 1.4rem;
 }
+
+.form-container fieldset p {
+  font-size: 1rem;
+}
