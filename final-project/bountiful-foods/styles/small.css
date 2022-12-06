@@ -114,9 +114,7 @@ nav a {
 nav a:hover {
   font-weight: 800;
 }
-section {
-  /* padding: .5rem; */
-}
+
 .social-media a {
   margin: 0 auto;
 }
@@ -142,7 +140,7 @@ section {
 }
 .hero-container-center {
   position: absolute;
-  top: 6%;
+  top: .5;
   text-align: center;
 }
 .hero-container-center h1 {
