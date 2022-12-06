@@ -46,4 +46,8 @@
 	.form-container #nutrition-facts {
 		grid-column: 2/3;
 	}
+
+	.form-popup {
+		top: 18rem;
+	  }
 }

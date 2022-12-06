@@ -13,13 +13,13 @@ function openForm() {
   populateConfirmationInfo(firstName, email, phone, fruit1, fruit2, fruit3, instructions);
   calculateNutritionInfo(fruit1, fruit2, fruit3);
 
-  document.getElementById("myForm").style.display = "block";
+  document.getElementById("form-popup").style.display = "block";
   document.getElementById("submit-button").style.display = "none";
 }
 
 function closeForm() {
-  location.reload();
-  document.getElementById("myForm").style.display = "none";
+  document.getElementById("form-popup").style.display = "none";
+  document.getElementById("submit-button").style.display = "block";
 }
 
 function incrementPurchaseCount() {

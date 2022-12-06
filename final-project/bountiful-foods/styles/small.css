@@ -285,7 +285,7 @@ section {
 .form-popup {
   display: none;
   position: relative;
-  top: 1rem;
+  top: 18rem;
   left: 5%;
   z-index: 1;
 }
