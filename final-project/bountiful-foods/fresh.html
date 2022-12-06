@@ -50,32 +50,27 @@
           <fieldset id="order-confirmation">
             <legend>Order Confirmation</legend>
             <label class="top">First Name</label>
-            <p id="conf-fname">David</p>
+            <p id="conf-fname"></p>
             <label class="top">Email</label>
-            <p id="conf-email">no@spam.com</p>
+            <p id="conf-email"></p>
             <label class="top">Cell Phone #</label>
-            <p id="conf-phone">503-555-1212</p>
+            <p id="conf-phone"></p>
             <label class="top">Fruit Choice #1</label>
-            <p id="conf-fruit1">Banana</p>
+            <p id="conf-fruit1"></p>
             <label class="top">Fruit Choice #2</label>
-            <p id="conf-fruit2">Black Berry</p>
+            <p id="conf-fruit2"></p>
             <label class="top">Fruit Choice #3</label>
-            <p id="conf-fruit3">Strawberry</p>
+            <p id="conf-fruit3"></p>
             <label class="top">Special Instructions</label>
-            <p id="special-instructions">Some instructions are included here as an example</p>
+            <p id="conf-instructions"></p>
           </fieldset>
           <fieldset id="nutrition-facts">
             <legend>Nutrition Facts</legend>
-            <label class="top">Carbs</label>
-            <p id="carbs">10%</p>
-            <label class="top">Protien</label>
-            <p id="protien">15%</p>
-            <label class="top">Sugar</label>
-            <p id="sugar">3mg</p>
-            <label class="top">Calories</label>
-            <p id="calories">1234</p>
-            <label class="top">Fat</label>
-            <p id="fat">12mg</p>
+            <h1>Calories <span id="calories"></span></h1>
+            <p>Carbs <span id="carbs"></span>g</p>
+            <p>Protein <span id="protein"></span>g</p>
+            <p>Sugar <span id="sugar"></span>g</p>
+            <p>Fat <span id="fat"></span>g</p>
           </fieldset>
           <button type="button" class="btn close" onclick="closeForm()">Close</button>
         </form>
@@ -84,9 +79,9 @@
         <form class="form" onsubmit="openForm();return false;">
           <fieldset>
             <legend>Order a Specialty Drink</legend>
-            <label class="top">First Name<input type="text" name="fname" required></label>
-            <label class="top">Email<input type="email" name="email" required placeholder="name@email.com"></label>
-            <label class="top">Cell Phone #<input type="tel" name="phone" required></label>
+            <label class="top">First Name<input type="text" id="fname" name="fname"required></label>
+            <label class="top">Email<input type="email" id="email" name="email" required placeholder="name@email.com"></label>
+            <label class="top">Cell Phone #<input type="tel" id="phone" name="phone" required></label>
           </fieldset>
           <fieldset>
             <legend>Please Select Fruit to Include in Drink</legend>
@@ -102,7 +97,7 @@
               <select id="fruit3" name="fruit3">
               </select>
             </label>
-            <label class="top">Special Instructions<textarea name="special-instructions" rows="5" cols="40"></textarea></label>
+            <label class="top">Special Instructions<textarea name="special-instructions" id="instructions" rows="5" cols="40"></textarea></label>
           </fieldset>
           <button id="submit-button" class="submit-button top">Place Order</button>
         </form>

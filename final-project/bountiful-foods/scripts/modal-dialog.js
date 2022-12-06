@@ -15,7 +15,6 @@ function openForm() {
 
   document.getElementById("myForm").style.display = "block";
   document.getElementById("submit-button").style.display = "none";
-
 }
 
 function closeForm() {
@@ -54,9 +53,6 @@ function calculateNutritionInfo(fruit1, fruit2, fruit3) {
       let fruit1_data = jsonObject.filter(fruit => fruit.name == fruit1)[0];
       let fruit2_data = jsonObject.filter(fruit => fruit.name == fruit2)[0];
       let fruit3_data = jsonObject.filter(fruit => fruit.name == fruit3)[0];
-      console.log(`fruit1_data: ${JSON.stringify(fruit1_data)}`)
-      console.log(`fruit2_data: ${JSON.stringify(fruit2_data)}`)
-      console.log(`fruit3_data: ${JSON.stringify(fruit3_data)}`)
 
       const carbs = fruit1_data.nutritions.carbohydrates + fruit2_data.nutritions.carbohydrates + fruit3_data.nutritions.carbohydrates;
       const protein = fruit1_data.nutritions.protein + fruit2_data.nutritions.protein + fruit3_data.nutritions.protein;
@@ -64,11 +60,10 @@ function calculateNutritionInfo(fruit1, fruit2, fruit3) {
       const calories = fruit1_data.nutritions.calories + fruit2_data.nutritions.calories + fruit3_data.nutritions.calories;
       const fat = fruit1_data.nutritions.fat + fruit2_data.nutritions.fat + fruit3_data.nutritions.fat;
       document.getElementById("carbs").textContent = carbs;
-      document.getElementById("protien").textContent = protein;
+      document.getElementById("protein").textContent = protein;
       document.getElementById("sugar").textContent = sugar;
       document.getElementById("calories").textContent = calories;
       document.getElementById("fat").textContent = fat;
-  
     });
   }
   
