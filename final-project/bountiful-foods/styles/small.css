@@ -140,7 +140,7 @@ nav a:hover {
 }
 .hero-container-center {
   position: absolute;
-  top: .5;
+  top: .5rem;
   text-align: center;
 }
 .hero-container-center h1 {
