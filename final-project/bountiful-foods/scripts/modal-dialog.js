@@ -59,11 +59,11 @@ function calculateNutritionInfo(fruit1, fruit2, fruit3) {
       const sugar = fruit1_data.nutritions.sugar + fruit2_data.nutritions.sugar + fruit3_data.nutritions.sugar;
       const calories = fruit1_data.nutritions.calories + fruit2_data.nutritions.calories + fruit3_data.nutritions.calories;
       const fat = fruit1_data.nutritions.fat + fruit2_data.nutritions.fat + fruit3_data.nutritions.fat;
-      document.getElementById("carbs").textContent = carbs;
-      document.getElementById("protein").textContent = protein;
-      document.getElementById("sugar").textContent = sugar;
-      document.getElementById("calories").textContent = calories;
-      document.getElementById("fat").textContent = fat;
+      document.getElementById("carbs").textContent = carbs.toFixed(0);
+      document.getElementById("protein").textContent = protein.toFixed(0);
+      document.getElementById("sugar").textContent = sugar.toFixed(0);
+      document.getElementById("calories").textContent = calories.toFixed(0);
+      document.getElementById("fat").textContent = fat.toFixed(0);
     });
   }
   
