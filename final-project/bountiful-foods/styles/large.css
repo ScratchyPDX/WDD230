@@ -49,7 +49,7 @@
 
   .right-side {
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr auto;
+    grid-template-rows: auto 4fr auto;
   }
   .right-side h1 {
     grid-row: 1/2;
@@ -70,7 +70,7 @@
 
   .left-side {
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: 1fr 4fr auto;
+    grid-template-rows: auto 4fr auto;
   }
   .left-side h1 {
     grid-row: 1/2;
