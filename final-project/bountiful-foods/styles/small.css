@@ -316,3 +316,7 @@ nav a:hover {
 .form-container fieldset p {
   font-size: 1rem;
 }
+
+section picture img {
+  width: 200px;
+}
