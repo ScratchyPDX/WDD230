@@ -35,9 +35,9 @@
     <section class="right-side standard-border standard-padding  box-shadow">
       <h1 class="bold">Order a drink online and it will be ready to pick-up when you arrive.</h1>
       <picture>
-        <source media="(min-width:500px)" srcset="images/fruit-drink/delicious-fruit-juices-500.webp">
-        <source media="(min-width:200px)" srcset="images/fruit-drink/delicious-fruit-juices-200.webp">
-        <img src="images/fruit-drink/delicious-fruit-juices-500.webp" alt="delicious fruit juices">
+        <source media="(min-width:500px)" src="images/placeholder.webp" data-src="images/fruit-drink/delicious-fruit-juices-500.webp"> 
+        <source media="(min-width:200px)" src="images/placeholder.webp" data-src="images/fruit-drink/delicious-fruit-juices-200.webp"> 
+        <img src="images/placeholder.webp" data-src="images/fruit-drink/delicious-fruit-juices-500.webp" alt="delicious fruit juices">
       </picture>
       <div class="right-side-text">
         <p class="center-text">Pick any three (3) of fruits or add-ons, and include any special instructions. 
@@ -122,6 +122,7 @@
     </div>
   </footer>
   <script src="scripts/main.js"></script>
+  <script src="scripts/lazy-load.js"></script>
   <script src="scripts/drink-info.js"></script>
   <script src="scripts/modal-dialog.js"></script>
 </body>
