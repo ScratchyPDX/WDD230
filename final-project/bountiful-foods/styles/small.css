@@ -78,14 +78,14 @@ footer {
 header,
 main,
 footer {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 nav {
   color: #fff;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1200px;
 }
 nav button {
   margin: 0.2rem 2vw;
